@@ -30,26 +30,334 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "post-fourier-transforms-seeing-sounds",
         
-          title: "a post with plotly.js",
+          title: "Fourier Transforms - Seeing Sounds",
         
-        description: "this is what included plotly.js code could look like",
+        description: "Discover how Fourier Transforms turn sound waves into visual patterns, enabling everything from music analysis to image compression.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/plotly/";
+            window.location.href = "/blog/2025/fourier-transform/";
           
         },
-      },{id: "post-a-post-with-image-galleries",
+      },{id: "post-mathematics-in-ancient-greece-4",
         
-          title: "a post with image galleries",
+          title: "Mathematics in Ancient Greece #4",
         
-        description: "this is what included image galleries could look like",
+        description: "Exploring the mathematical advancements in Ancient Greece, including the development of formal proofs, geometry, and the contributions of great mathematicians like Pythagoras, Euclid, and Archimedes.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/photo-gallery/";
+            window.location.href = "/blog/2025/math-in-ancient-greece/";
+          
+        },
+      },{id: "post-mathematics-in-ancient-egypt-3",
+        
+          title: "Mathematics in Ancient Egypt #3",
+        
+        description: "Exploring the mathematical advancements in Ancient Egypt, including their numeral system, geometry, and applications in engineering and administration.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/math-in-ancient-egypy/";
+          
+        },
+      },{id: "post-mathematics-in-ancient-mesopotamia-2",
+        
+          title: "Mathematics in Ancient Mesopotamia #2",
+        
+        description: "Exploring the mathematical advancements in Ancient Mesopotamia, including their numeral system, algebraic methods, and applications in astronomy and trade.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/math-in-ancient-mesopotamia/";
+          
+        },
+      },{id: "post-mathematics-in-prehistoric-times-1",
+        
+          title: "Mathematics in Prehistoric Times #1",
+        
+        description: "Exploring the origins of mathematics in prehistoric times, from early counting methods to the use of geometry in survival and construction.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/math-in-prehistoric-time/";
+          
+        },
+      },{id: "post-creating-a-pid-controller-using-atmega328p-theory-and-implementation",
+        
+          title: "Creating a PID Controller Using ATmega328P: Theory and Implementation",
+        
+        description: "A comprehensive guide to understanding and implementing a PID controller on the ATmega328P microcontroller, covering the mathematical theory and practical C code implementation.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ATMEGA328p-PID-post/";
+          
+        },
+      },{id: "post-understanding-interrupts-and-real-time-execution-in-microcontrollers",
+        
+          title: "Understanding Interrupts and Real-Time Execution in Microcontrollers",
+        
+        description: "A highly detailed guide to microcontroller interrupts and real-time execution, covering interrupt types, handling mechanisms, nesting, priority management, real-time system design, RTOS integration, and advanced performance techniques.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/MicrocontrollerArchi-post-04/";
+          
+        },
+      },{id: "post-understanding-instruction-set-architecture-in-microcontrollers",
+        
+          title: "Understanding Instruction Set Architecture in Microcontrollers",
+        
+        description: "An in-depth exploration of microcontroller instruction set architecture (ISA), covering RISC vs. CISC, instruction types, execution techniques, memory addressing modes, and advanced optimization methods.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/MicrocontrollerArchi-post-03/";
+          
+        },
+      },{id: "post-understanding-microcontroller-memory-systems",
+        
+          title: "Understanding Microcontroller Memory Systems",
+        
+        description: "A detailed exploration of microcontroller memory systems, including RAM, ROM, EEPROM, stack, heap, and memory addressing techniques.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/MicrocontrollerArchi-post-02/";
+          
+        },
+      },{id: "post-a-deep-dive-into-microcontroller-architectures",
+        
+          title: "A deep dive into microcontroller architectures",
+        
+        description: "A detailed introduction to microcontroller architectures, including their role, types, and key differences between Von Neumann and Harvard architectures and many more including fetch, decode, execute cycle.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/MicrocontrollerArchi-post-01/";
+          
+        },
+      },{id: "post-i2c-and-spi-communication-on-atmega328p",
+        
+          title: "I2C and SPI Communication on ATmega328P",
+        
+        description: "Learn how to implement I2C and SPI communication on ATmega328P for interfacing with sensors and memory devices.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ATMEGA328p-post-05/";
+          
+        },
+      },{id: "post-uart-communication-on-atmega328p",
+        
+          title: "UART Communication on ATmega328P",
+        
+        description: "Learn how to set up and use UART serial communication on ATmega328P for interfacing with a PC terminal.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ATMEGA328p-post-04/";
+          
+        },
+      },{id: "post-understanding-timers-and-pwm-on-atmega328p",
+        
+          title: "Understanding Timers and PWM on ATmega328P",
+        
+        description: "Learn how to use timers and PWM on ATmega328P for precise timing and analog-like signal generation.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ATMEGA328p-post-03/";
+          
+        },
+      },{id: "post-the-crisis-of-blackbody-radiation-a-problem-for-classical-physics",
+        
+          title: "The Crisis of Blackbody Radiation: A Problem for Classical Physics",
+        
+        description: "A comprehensive exploration of the ultraviolet catastrophe and how Max Planck&#39;s revolutionary idea of quantized energy set the foundation for quantum mechanics.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/quantum-physiscs-post-02-copy/";
+          
+        },
+      },{id: "post-understanding-atmega328p-registers-and-gpio-control",
+        
+          title: "Understanding ATmega328P Registers and GPIO Control",
+        
+        description: "Understanding how to use ATmega328P registers (DDR, PORT, and PIN) for efficient GPIO control in embedded systems.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ATMEGA328p-post-02/";
+          
+        },
+      },{id: "post-the-age-of-classical-physics-a-world-of-certainty",
+        
+          title: "The Age of Classical Physics: A World of Certainty",
+        
+        description: "An in-depth exploration of classical physics before the quantum revolution, covering Newtonian mechanics, Maxwell&#39;s electromagnetism, thermodynamics, and the early signs of cracks in the classical framework.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/quantum-physiscs-post-01/";
+          
+        },
+      },{id: "post-introduction-to-atmega328p-and-usbasp",
+        
+          title: "Introduction to ATmega328P and USBasp",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ATMEGA328p-post-01/";
+          
+        },
+      },{id: "post-c-vs-c-which-one-should-you-choose",
+        
+          title: "C vs C++ Which One Should You Choose?",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/2-c-vs-c++-post/";
+          
+        },
+      },{id: "post-difference-between-c-and-embedded-c",
+        
+          title: "Difference Between C and Embedded C",
+        
+        description: "A guide on writing and using libraries in C, covering static and dynamic libraries, header file organization, and linking.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/c-vs-emb-c-post/";
+          
+        },
+      },{id: "post-secure-and-robust-c-programming-c-post-10",
+        
+          title: "Secure and Robust C Programming - C Post 10",
+        
+        description: "A guide to writing secure and robust C programs, covering buffer overflows, integer overflows, safe memory handling, and security best practices.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/c-post-10/";
+          
+        },
+      },{id: "post-writing-and-using-libraries-in-c-c-post-09",
+        
+          title: "Writing and Using Libraries in C - C Post 09",
+        
+        description: "A guide on writing and using libraries in C, covering static and dynamic libraries, header file organization, and linking.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/c-post-09/";
+          
+        },
+      },{id: "post-system-calls-and-file-handling-in-c-c-post-08",
+        
+          title: "System Calls and File Handling in C - C Post 08",
+        
+        description: "Understanding system calls and file handling in C, including process management, file operations, and inter-process communication (IPC).",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/c-post-08/";
+          
+        },
+      },{id: "post-multi-threading-and-concurrency-in-c-c-post-07",
+        
+          title: "Multi-threading and Concurrency in C - C Post 07",
+        
+        description: "A deep dive into multi-threading and concurrency in C, covering pthreads, synchronization mechanisms, race conditions, and parallel processing.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/c-post-07/";
+          
+        },
+      },{id: "post-advanced-features-of-c-unlocking-the-full-potential-c-post-06",
+        
+          title: "Advanced Features of C - Unlocking the Full Potential - C Post 06...",
+        
+        description: "Understanding how a C compiler toolchain transforms source code into an executable by breaking it into preprocessing, compilation, assembly, and linking.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/";
+          
+        },
+      },{id: "post-exploring-every-feature-of-c-from-basics-to-advanced-c-post-05",
+        
+          title: "Exploring Every Feature of C-From Basics to Advanced - C Post 05",
+        
+        description: "A comprehensive guide covering all features of the C programming language, from fundamental concepts to advanced techniques.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/";
+          
+        },
+      },{id: "post-how-the-compiler-toolchain-works-c-post-04",
+        
+          title: "How the Compiler Toolchain Works - C Post 04",
+        
+        description: "Understanding how a C compiler toolchain transforms source code into an executable by breaking it into preprocessing, compilation, assembly, and linking.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/How-the-Compiler-Tool-Chain-Works/";
+          
+        },
+      },{id: "post-the-evolution-of-c-and-its-compiler-from-the-first-version-to-modern-day-c-post-03",
+        
+          title: "The Evolution of C and Its Compiler - From the First Version to...",
+        
+        description: "The journey of C and its compiler from their inception to modern times is a story of continuous innovation and adaptation, shaping modern programming.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/The-Evolution-of-C-and-Its-Compiler/";
+          
+        },
+      },{id: "post-the-birth-of-the-first-c-compiler-c-post-02",
+        
+          title: "The Birth of the First C Compiler - C Post 02",
+        
+        description: "The first C compiler was a groundbreaking development that transformed the C programming language into a practical tool for software development. This post explores how it was created, its challenges, and its impact.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/The-Birth-of-the-First-C-Compiler/";
+          
+        },
+      },{id: "post-history-of-the-c-programming-language-c-post-01",
+        
+          title: "History of the C Programming Language - C Post 01",
+        
+        description: "The C programming language has shaped modern computing. In this post, we explore its origins, the languages that preceded it, and its impact on software development.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/History-of-the-C-Programming-Language/";
+          
+        },
+      },{id: "post-difference-between-microprocessors-and-microcontrollers",
+        
+          title: "Difference Between Microprocessors and Microcontrollers",
+        
+        description: "In the world of embedded systems and computing, the terms microprocessor and microcontroller often come up, and while they might sound similar, they serve different purposes and have distinct characteristics. Let&#39;s delve into the key differences between these two crucial components.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/difference-between-microprocessors-and-microcontrollers/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
@@ -63,226 +371,6 @@ ninja.data = [{
             window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
           
         },
-      },{id: "post-a-post-with-tabs",
-        
-          title: "a post with tabs",
-        
-        description: "this is what included tabs in a post could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/tabs/";
-          
-        },
-      },{id: "post-a-post-with-typograms",
-        
-          title: "a post with typograms",
-        
-        description: "this is what included typograms code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/typograms/";
-          
-        },
-      },{id: "post-a-post-that-can-be-cited",
-        
-          title: "a post that can be cited",
-        
-        description: "this is what a post that can be cited looks like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/post-citation/";
-          
-        },
-      },{id: "post-a-post-with-pseudo-code",
-        
-          title: "a post with pseudo code",
-        
-        description: "this is what included pseudo code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/pseudocode/";
-          
-        },
-      },{id: "post-a-post-with-code-diff",
-        
-          title: "a post with code diff",
-        
-        description: "this is how you can display code diffs",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/code-diff/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/advanced-images/";
-          
-        },
-      },{id: "post-a-post-with-vega-lite",
-        
-          title: "a post with vega lite",
-        
-        description: "this is what included vega lite code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/vega-lite/";
-          
-        },
-      },{id: "post-a-post-with-geojson",
-        
-          title: "a post with geojson",
-        
-        description: "this is what included geojson code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/geojson-map/";
-          
-        },
-      },{id: "post-a-post-with-echarts",
-        
-          title: "a post with echarts",
-        
-        description: "this is what included echarts code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/echarts/";
-          
-        },
-      },{id: "post-a-post-with-chart-js",
-        
-          title: "a post with chart.js",
-        
-        description: "this is what included chart.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/chartjs/";
-          
-        },
-      },{id: "post-a-post-with-tikzjax",
-        
-          title: "a post with TikZJax",
-        
-        description: "this is what included TikZ code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tikzjax/";
-          
-        },
-      },{id: "post-a-post-with-bibliography",
-        
-          title: "a post with bibliography",
-        
-        description: "an example of a blog post with bibliography",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/post-bibliography/";
-          
-        },
-      },{id: "post-a-post-with-jupyter-notebook",
-        
-          title: "a post with jupyter notebook",
-        
-        description: "an example of a blog post with jupyter notebook",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/jupyter-notebook/";
-          
-        },
-      },{id: "post-a-post-with-custom-blockquotes",
-        
-          title: "a post with custom blockquotes",
-        
-        description: "an example of a blog post with custom blockquotes",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/custom-blockquotes/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-        
-          title: "a post with table of contents on a sidebar",
-        
-        description: "an example of a blog post with table of contents on a sidebar",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/sidebar-table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-audios",
-        
-          title: "a post with audios",
-        
-        description: "this is what included audios could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/audios/";
-          
-        },
-      },{id: "post-a-post-with-videos",
-        
-          title: "a post with videos",
-        
-        description: "this is what included videos could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/videos/";
-          
-        },
-      },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
-        
-          title: "displaying beautiful tables with Bootstrap Tables",
-        
-        description: "an example of how to use Bootstrap Tables",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tables/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents",
-        
-          title: "a post with table of contents",
-        
-        description: "an example of a blog post with table of contents",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-giscus-comments",
-        
-          title: "a post with giscus comments",
-        
-        description: "an example of a blog post with giscus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2022/giscus-comments/";
-          
-        },
       },{id: "post-displaying-external-posts-on-your-al-folio-blog",
         
           title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -292,105 +380,6 @@ ninja.data = [{
         handler: () => {
           
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "post-a-post-with-redirect",
-        
-          title: "a post with redirect",
-        
-        description: "you can also redirect to assets like pdf",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/assets/pdf/example_pdf.pdf";
-          
-        },
-      },{id: "post-a-post-with-diagrams",
-        
-          title: "a post with diagrams",
-        
-        description: "an example of a blog post with diagrams",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/diagrams/";
-          
-        },
-      },{id: "post-a-distill-style-blog-post",
-        
-          title: "a distill-style blog post",
-        
-        description: "an example of a distill-style blog post and main elements",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/distill/";
-          
-        },
-      },{id: "post-a-post-with-twitter",
-        
-          title: "a post with twitter",
-        
-        description: "an example of a blog post with twitter",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2020/twitter/";
-          
-        },
-      },{id: "post-a-post-with-disqus-comments",
-        
-          title: "a post with disqus comments",
-        
-        description: "an example of a blog post with disqus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/disqus-comments/";
-          
-        },
-      },{id: "post-a-post-with-math",
-        
-          title: "a post with math",
-        
-        description: "an example of a blog post with some math",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/math/";
-          
-        },
-      },{id: "post-a-post-with-code",
-        
-          title: "a post with code",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/code/";
-          
-        },
-      },{id: "post-a-post-with-images",
-        
-          title: "a post with images",
-        
-        description: "this is what included images could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/images/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/formatting-and-links/";
           
         },
       },{id: "books-the-godfather",
