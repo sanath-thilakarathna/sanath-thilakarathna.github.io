@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 8
+title: IEEE Robotics Competition
 description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
+img: assets/img/IEEE-R10-2022.jpg
 importance: 2
-category: work
+category: Robotics
 giscus_comments: true
 ---
 

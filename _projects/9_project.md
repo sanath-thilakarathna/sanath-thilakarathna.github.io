@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 9
-description: another project with an image 🎉
+title: Mag Lev System
+description: Steel ball levitation using a hybrid electro magnet at zero power condition.
 img: assets/img/6.jpg
-importance: 4
-category: fun
+importance: 2
+category: Academic
 ---
 
 Every project has a beautiful feature showcase page.
