@@ -30,7 +30,51 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-fourier-transforms-seeing-sounds",
+        },{id: "post-stuxnet-the-cyberweapon-that-changed-everything",
+        
+          title: 'Stuxnet: The Cyberweapon That Changed Everything <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanaththi/stuxnet-the-cyberweapon-that-changed-everything-c7f5925b19c0?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-the-silent-revolution-how-passive-devices-like-rfid-and-nfc-grew-from-cold-war-roots",
+        
+          title: 'The Silent Revolution, How Passive Devices Like RFID and NFC Grew from Cold... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanaththi/the-silent-revolution-how-passive-devices-like-rfid-and-nfc-grew-from-cold-war-roots-39d72bc7a2d5?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-the-thing-unmasking-the-soviet-spy-device-hidden-in-plain-sight",
+        
+          title: 'The Thing: Unmasking the Soviet Spy Device Hidden in Plain Sight <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanaththi/the-thing-unmasking-the-soviet-spy-device-hidden-in-plain-sight-1a3ebc87e52c?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-what-is-mechatronics-a-beginner-s-guide",
+        
+          title: 'What is Mechatronics? A Beginner’s Guide <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanaththi/what-is-mechatronics-a-beginners-guide-8bbd25019cf0?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-fourier-transforms-seeing-sounds",
         
           title: "Fourier Transforms - Seeing Sounds",
         
@@ -371,17 +415,6 @@ ninja.data = [{
             window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
           
         },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
@@ -449,6 +482,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%64%6D%73%6B%73%61%6E%61%74%68@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/sanath-thilakarathna", "_blank");
         },
       },{
         id: 'social-linkedin',
