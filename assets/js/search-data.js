@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-stuxnet-the-cyberweapon-that-changed-everything",
+        },{id: "post-spacex-falcon-rockets-reusable-rockets-revolutionizing-space-travel",
+        
+          title: 'SpaceX Falcon Rockets: Reusable Rockets Revolutionizing Space Travel <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanaththi/spacex-falcon-rockets-reusable-rockets-revolutionizing-space-travel-49f1258d46e1?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-stuxnet-the-cyberweapon-that-changed-everything",
         
           title: 'Stuxnet: The Cyberweapon That Changed Everything <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
@@ -431,16 +442,11 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
+          section: "News",},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
+              window.location.href = "/projects/2_project%20copy/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
@@ -465,17 +471,37 @@ ninja.data = [{
           title: 'project 7',
           description: "with background image",
           section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project%20copy/";
+            },},{id: "projects-project-7",
+          title: 'project 7',
+          description: "with background image",
+          section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
+            },},{id: "projects-ieee-robotics-competition",
+          title: 'IEEE Robotics Competition',
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+            },},{id: "projects-mag-lev-system",
+          title: 'Mag Lev System',
+          description: "Steel ball levitation using a hybrid electro magnet at zero power condition.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-autonomous-delivery-robot",
+          title: 'Autonomous Delivery Robot',
+          description: "A mechanism for lifting cartons",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/autonomousdeliveryrobot/";
+            },},{id: "projects-carton-lifting-mechanism",
+          title: 'Carton Lifting Mechanism',
+          description: "A mechanism for lifting cartons",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cartonliftingmechanism/";
+            },},{id: "projects-micromouse-robot",
+          title: 'Micromouse Robot',
+          description: "A micromouse robot for competitions",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/micromouserobot/";
             },},{
         id: 'social-email',
         title: 'email',
