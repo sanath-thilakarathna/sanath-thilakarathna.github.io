@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "A growing collection of your cool projects.",
+          description: "A growing collection of my projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-spacex-falcon-rockets-reusable-rockets-revolutionizing-space-travel",
+        },{id: "post-the-man-who-pulled-bread-from-air-and-gas-from-hell",
+        
+          title: 'The Man Who Pulled Bread from Air and Gas from Hell <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanaththi/the-man-who-pulled-bread-from-air-and-gas-from-hell-5a87421aae33?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-spacex-falcon-rockets-reusable-rockets-revolutionizing-space-travel",
         
           title: 'SpaceX Falcon Rockets: Reusable Rockets Revolutionizing Space Travel <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
