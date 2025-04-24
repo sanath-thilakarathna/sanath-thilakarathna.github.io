@@ -30,7 +30,40 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-the-man-who-pulled-bread-from-air-and-gas-from-hell",
+        },{id: "post-thorium-reactors-powering-the-future-with-safer-smarter-nuclear-energy",
+        
+          title: 'Thorium Reactors: Powering the Future with Safer, Smarter Nuclear Energy <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanaththi/thorium-reactors-powering-the-future-with-safer-smarter-nuclear-energy-a6d2a6c16764?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-how-china-s-new-transistors-could-reshape-global-computing",
+        
+          title: 'How China’s New Transistors Could Reshape Global Computing <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanaththi/how-chinas-new-transistors-could-reshape-global-computing-36bbc81724e8?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-magnetic-cooling-revolutionizing-refrigeration-technology",
+        
+          title: 'Magnetic Cooling: Revolutionizing Refrigeration Technology <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanaththi/magnetic-cooling-revolutionizing-refrigeration-technology-2fd26189fecb?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-the-man-who-pulled-bread-from-air-and-gas-from-hell",
         
           title: 'The Man Who Pulled Bread from Air and Gas from Hell <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
