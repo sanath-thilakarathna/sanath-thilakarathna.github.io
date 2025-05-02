@@ -30,7 +30,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-thorium-reactors-powering-the-future-with-safer-smarter-nuclear-energy",
+        },{id: "post-what-every-roboticist-must-know-about-ros-part-01",
+        
+          title: "What Every Roboticist Must Know About ROS - Part 01",
+        
+        description: "An overview of the Robot Operating System (ROS), its importance in modern robotics, and the transition from ROS 1 to ROS 2.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ros/";
+          
+        },
+      },{id: "post-types-of-databases-an-overview-for-modern-applications",
+        
+          title: 'Types of Databases: An Overview for Modern Applications <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanaththi/types-of-databases-an-overview-for-modern-applications-8b13cc517de4?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-thorium-reactors-powering-the-future-with-safer-smarter-nuclear-energy",
         
           title: 'Thorium Reactors: Powering the Future with Safer, Smarter Nuclear Energy <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
