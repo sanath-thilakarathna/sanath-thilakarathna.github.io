@@ -23,14 +23,76 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-teaching",
+          title: "Teaching",
+          description: "Materials for courses I teach or taught.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-what-every-roboticist-must-know-about-ros-part-01",
+        },{id: "post-bertha-benz-the-first-test-driver-who-changed-the-world",
+        
+          title: 'Bertha Benz: The First Test Driver Who Changed the World <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanaththi/bertha-benz-the-first-test-driver-who-changed-the-world-cebbc8e33b7c?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-a-50-year-old-soviet-spacecraft-is-about-to-crash-back-to-earth",
+        
+          title: 'A 50-Year-Old Soviet Spacecraft Is About to Crash Back to Earth <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanaththi/a-50-year-old-soviet-spacecraft-is-about-to-crash-back-to-earth-ff59e5f34458?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-the-rise-and-fall-of-skype-a-digital-pioneer-bows-out",
+        
+          title: 'The Rise and Fall of Skype: A Digital Pioneer Bows Out <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanaththi/the-rise-and-fall-of-skype-a-digital-pioneer-bows-out-3e867a46c369?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-the-mathematician-who-built-the-bomb-then-built-the-field-of-game-theory",
+        
+          title: 'The Mathematician Who Built the Bomb — Then Built the Field of Game Theory <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanaththi/the-mathematician-who-built-the-bomb-then-built-the-field-of-game-theory-8a63f09071b7?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-why-sri-lanka-uses-bs-1363-electrical-plugs-and-sockets",
+        
+          title: 'Why Sri Lanka Uses BS 1363 Electrical Plugs and Sockets <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanaththi/why-sri-lanka-uses-bs-1363-electrical-plugs-and-sockets-45a632e54044?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-what-every-roboticist-must-know-about-ros-part-01",
         
           title: "What Every Roboticist Must Know About ROS - Part 01",
         
@@ -94,61 +156,6 @@ ninja.data = [{
         handler: () => {
           
             window.open("https://medium.com/@sanaththi/the-man-who-pulled-bread-from-air-and-gas-from-hell-5a87421aae33?source=rss-cbe0def0a051------2", "_blank");
-          
-        },
-      },{id: "post-spacex-falcon-rockets-reusable-rockets-revolutionizing-space-travel",
-        
-          title: 'SpaceX Falcon Rockets: Reusable Rockets Revolutionizing Space Travel <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@sanaththi/spacex-falcon-rockets-reusable-rockets-revolutionizing-space-travel-49f1258d46e1?source=rss-cbe0def0a051------2", "_blank");
-          
-        },
-      },{id: "post-stuxnet-the-cyberweapon-that-changed-everything",
-        
-          title: 'Stuxnet: The Cyberweapon That Changed Everything <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@sanaththi/stuxnet-the-cyberweapon-that-changed-everything-c7f5925b19c0?source=rss-cbe0def0a051------2", "_blank");
-          
-        },
-      },{id: "post-the-silent-revolution-how-passive-devices-like-rfid-and-nfc-grew-from-cold-war-roots",
-        
-          title: 'The Silent Revolution, How Passive Devices Like RFID and NFC Grew from Cold... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@sanaththi/the-silent-revolution-how-passive-devices-like-rfid-and-nfc-grew-from-cold-war-roots-39d72bc7a2d5?source=rss-cbe0def0a051------2", "_blank");
-          
-        },
-      },{id: "post-the-thing-unmasking-the-soviet-spy-device-hidden-in-plain-sight",
-        
-          title: 'The Thing: Unmasking the Soviet Spy Device Hidden in Plain Sight <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@sanaththi/the-thing-unmasking-the-soviet-spy-device-hidden-in-plain-sight-1a3ebc87e52c?source=rss-cbe0def0a051------2", "_blank");
-          
-        },
-      },{id: "post-what-is-mechatronics-a-beginner-s-guide",
-        
-          title: 'What is Mechatronics? A Beginner’s Guide <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@sanaththi/what-is-mechatronics-a-beginners-guide-8bbd25019cf0?source=rss-cbe0def0a051------2", "_blank");
           
         },
       },{id: "post-fourier-transforms-seeing-sounds",
@@ -568,6 +575,11 @@ ninja.data = [{
           description: "A micromouse robot for competitions",
           section: "Projects",handler: () => {
               window.location.href = "/projects/micromouserobot/";
+            },},{id: "teaching-project-4",
+          title: 'project 4',
+          description: "another without an image",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/4_project/";
             },},{
         id: 'social-email',
         title: 'email',
