@@ -45,7 +45,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.open("https://medium.com/@sanaththi/bertha-benz-the-first-test-driver-who-changed-the-world-cebbc8e33b7c?source=rss-cbe0def0a051------2", "_blank");
+            window.open("https://medium.com/@sanathkt/bertha-benz-the-first-test-driver-who-changed-the-world-cebbc8e33b7c?source=rss-cbe0def0a051------2", "_blank");
           
         },
       },{id: "post-a-50-year-old-soviet-spacecraft-is-about-to-crash-back-to-earth",
@@ -56,7 +56,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.open("https://medium.com/@sanaththi/a-50-year-old-soviet-spacecraft-is-about-to-crash-back-to-earth-ff59e5f34458?source=rss-cbe0def0a051------2", "_blank");
+            window.open("https://medium.com/@sanathkt/a-50-year-old-soviet-spacecraft-is-about-to-crash-back-to-earth-ff59e5f34458?source=rss-cbe0def0a051------2", "_blank");
           
         },
       },{id: "post-the-rise-and-fall-of-skype-a-digital-pioneer-bows-out",
@@ -67,7 +67,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.open("https://medium.com/@sanaththi/the-rise-and-fall-of-skype-a-digital-pioneer-bows-out-3e867a46c369?source=rss-cbe0def0a051------2", "_blank");
+            window.open("https://medium.com/@sanathkt/the-rise-and-fall-of-skype-a-digital-pioneer-bows-out-3e867a46c369?source=rss-cbe0def0a051------2", "_blank");
           
         },
       },{id: "post-the-mathematician-who-built-the-bomb-then-built-the-field-of-game-theory",
@@ -78,7 +78,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.open("https://medium.com/@sanaththi/the-mathematician-who-built-the-bomb-then-built-the-field-of-game-theory-8a63f09071b7?source=rss-cbe0def0a051------2", "_blank");
+            window.open("https://medium.com/@sanathkt/the-mathematician-who-built-the-bomb-then-built-the-field-of-game-theory-8a63f09071b7?source=rss-cbe0def0a051------2", "_blank");
           
         },
       },{id: "post-why-sri-lanka-uses-bs-1363-electrical-plugs-and-sockets",
@@ -89,7 +89,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.open("https://medium.com/@sanaththi/why-sri-lanka-uses-bs-1363-electrical-plugs-and-sockets-45a632e54044?source=rss-cbe0def0a051------2", "_blank");
+            window.open("https://medium.com/@sanathkt/why-sri-lanka-uses-bs-1363-electrical-plugs-and-sockets-45a632e54044?source=rss-cbe0def0a051------2", "_blank");
           
         },
       },{id: "post-what-every-roboticist-must-know-about-ros-part-01",
@@ -111,7 +111,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.open("https://medium.com/@sanaththi/types-of-databases-an-overview-for-modern-applications-8b13cc517de4?source=rss-cbe0def0a051------2", "_blank");
+            window.open("https://medium.com/@sanathkt/types-of-databases-an-overview-for-modern-applications-8b13cc517de4?source=rss-cbe0def0a051------2", "_blank");
           
         },
       },{id: "post-thorium-reactors-powering-the-future-with-safer-smarter-nuclear-energy",
@@ -122,7 +122,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.open("https://medium.com/@sanaththi/thorium-reactors-powering-the-future-with-safer-smarter-nuclear-energy-a6d2a6c16764?source=rss-cbe0def0a051------2", "_blank");
+            window.open("https://medium.com/@sanathkt/thorium-reactors-powering-the-future-with-safer-smarter-nuclear-energy-a6d2a6c16764?source=rss-cbe0def0a051------2", "_blank");
           
         },
       },{id: "post-how-china-s-new-transistors-could-reshape-global-computing",
@@ -133,7 +133,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.open("https://medium.com/@sanaththi/how-chinas-new-transistors-could-reshape-global-computing-36bbc81724e8?source=rss-cbe0def0a051------2", "_blank");
+            window.open("https://medium.com/@sanathkt/how-chinas-new-transistors-could-reshape-global-computing-36bbc81724e8?source=rss-cbe0def0a051------2", "_blank");
           
         },
       },{id: "post-magnetic-cooling-revolutionizing-refrigeration-technology",
@@ -144,7 +144,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.open("https://medium.com/@sanaththi/magnetic-cooling-revolutionizing-refrigeration-technology-2fd26189fecb?source=rss-cbe0def0a051------2", "_blank");
+            window.open("https://medium.com/@sanathkt/magnetic-cooling-revolutionizing-refrigeration-technology-2fd26189fecb?source=rss-cbe0def0a051------2", "_blank");
           
         },
       },{id: "post-the-man-who-pulled-bread-from-air-and-gas-from-hell",
@@ -155,7 +155,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.open("https://medium.com/@sanaththi/the-man-who-pulled-bread-from-air-and-gas-from-hell-5a87421aae33?source=rss-cbe0def0a051------2", "_blank");
+            window.open("https://medium.com/@sanathkt/the-man-who-pulled-bread-from-air-and-gas-from-hell-5a87421aae33?source=rss-cbe0def0a051------2", "_blank");
           
         },
       },{id: "post-fourier-transforms-seeing-sounds",
