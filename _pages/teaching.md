@@ -1,12 +1,64 @@
 ---
-layout: page
+layout: page-2
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: false
-nav_order: 6
+title: Teaching
+description: Materials for courses I teach or taught.
+nav: true
+nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<!-- pages/teaching.md -->
+<div class="teaching">
+{% if site.enable_project_categories and page.display_categories %}
+  <!-- Display categorized teaching -->
+  {% for category in page.display_categories %}
+  <a id="{{ category }}" href=".#{{ category }}">
+    <h2 class="category">{{ category }}</h2>
+  </a>
+  {% assign categorized_teaching = site.teaching | where: "category", category %}
+  {% assign sorted_teaching = categorized_teaching | sort: "importance" %}
+  <!-- Generate cards for each project -->
+  {% if page.horizontal %}
+  <div class="container">
+    <div class="col-md-12">
+    {% for project in sorted_teaching %}
+      {% include teaching_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="col-md-12">
+    {% for project in sorted_teaching %}
+      {% include teaching.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% endfor %}
 
-Organize your courses by years, topics, or universities, however you like!
+{% else %}
+
+<!-- Display teaching without categories -->
+
+{% assign sorted_teaching = site.teaching | sort: "importance" %}
+
+  <!-- Generate cards for each project -->
+
+{% if page.horizontal %}
+
+  <div class="container">
+    <div class="col-md-12">
+    {% for project in sorted_teaching %}
+      {% include teaching_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="rcol-md-12">
+    {% for project in sorted_teaching %}
+      {% include teaching.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+{% endif %}
+</div>
+
