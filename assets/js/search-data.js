@@ -48,6 +48,17 @@ ninja.data = [{
             window.open("https://medium.com/@sanathkt/bertha-benz-the-first-test-driver-who-changed-the-world-cebbc8e33b7c?source=rss-cbe0def0a051------2", "_blank");
           
         },
+      },{id: "post-what-is-stress-the-foundation-of-material-mechanics",
+        
+          title: "What is Stress? – The Foundation of Material Mechanics",
+        
+        description: "Learn the basic concept of stress in material mechanics—what it is, how it&#39;s calculated, and why it&#39;s essential in engineering design.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/stress_intro/";
+          
+        },
       },{id: "post-a-50-year-old-soviet-spacecraft-is-about-to-crash-back-to-earth",
         
           title: 'A 50-Year-Old Soviet Spacecraft Is About to Crash Back to Earth <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
