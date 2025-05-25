@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What is Stress? – The Foundation of Material Mechanics"
-date: 2025-05-08 23:00:00 +0530
+date: 2025-05-08 08:00:00 +0530
 description: Learn the basic concept of stress in material mechanics—what it is, how it's calculated, and why it's essential in engineering design.
 tags: Material Mechanics, Engineering Design, Stress Analysis
 categories: Engineering
@@ -41,7 +41,7 @@ Stress shows up in different ways based on how the force is acting on the object
     </div>
 </div>
 <div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+    Different Types of Stresses.
 </div>
 
 ## Importance in Design
@@ -52,7 +52,6 @@ Knowing about stress helps engineers figure out how much force a material or par
 
 If engineers don’t think about stress, things like bridges, machines, or cars could break suddenly and cause serious problems.
 
-## Conclusion
 Stress is one of the most important and simple ideas in engineering. Once you understand what stress means and how to calculate it, you can guess how materials will react when you push or pull on them. This helps engineers build things that are strong and safe. That’s why learning about stress is the first step in understanding how materials work.
 
 ---
