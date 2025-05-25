@@ -37,7 +37,40 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-bertha-benz-the-first-test-driver-who-changed-the-world",
+        },{id: "post-how-microcontrollers-39-see-39-the-real-world",
+        
+          title: "How Microcontrollers &#39;See&#39; the Real World",
+        
+        description: "Explore how microcontrollers and DAQ systems handle analog inputs, from voltage sensing with ADCs to the complexities of current measurement, differentiating between hobbyist and professional approaches.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/analogInput/";
+          
+        },
+      },{id: "post-why-aren-t-keyboard-keys-in-alphabetical-order",
+        
+          title: 'Why Aren’t Keyboard Keys in Alphabetical Order? <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanathkt/why-arent-keyboard-keys-in-alphabetical-order-f2ae6dbbdf11?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-demystifying-multimedia-processing-codecs-formats-and-the-power-of-ffmpeg",
+        
+          title: 'Demystifying Multimedia Processing: Codecs, Formats, and the Power of FFmpeg <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanathkt/demystifying-multimedia-processing-codecs-formats-and-the-power-of-ffmpeg-41eff45056b9?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-bertha-benz-the-first-test-driver-who-changed-the-world",
         
           title: 'Bertha Benz: The First Test Driver Who Changed the World <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
@@ -46,17 +79,6 @@ ninja.data = [{
         handler: () => {
           
             window.open("https://medium.com/@sanathkt/bertha-benz-the-first-test-driver-who-changed-the-world-cebbc8e33b7c?source=rss-cbe0def0a051------2", "_blank");
-          
-        },
-      },{id: "post-what-is-stress-the-foundation-of-material-mechanics",
-        
-          title: "What is Stress? – The Foundation of Material Mechanics",
-        
-        description: "Learn the basic concept of stress in material mechanics—what it is, how it&#39;s calculated, and why it&#39;s essential in engineering design.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/stress_intro/";
           
         },
       },{id: "post-a-50-year-old-soviet-spacecraft-is-about-to-crash-back-to-earth",
@@ -68,6 +90,28 @@ ninja.data = [{
         handler: () => {
           
             window.open("https://medium.com/@sanathkt/a-50-year-old-soviet-spacecraft-is-about-to-crash-back-to-earth-ff59e5f34458?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-understanding-strain-how-materials-deform",
+        
+          title: "Understanding Strain – How Materials Deform",
+        
+        description: "Learn what strain is in material mechanics—how materials deform under stress, types of strain, and why it&#39;s important in engineering design.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/strain/";
+          
+        },
+      },{id: "post-what-is-stress-the-foundation-of-material-mechanics",
+        
+          title: "What is Stress? – The Foundation of Material Mechanics",
+        
+        description: "Learn the basic concept of stress in material mechanics—what it is, how it&#39;s calculated, and why it&#39;s essential in engineering design.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/stress_intro/";
           
         },
       },{id: "post-the-rise-and-fall-of-skype-a-digital-pioneer-bows-out",
@@ -145,28 +189,6 @@ ninja.data = [{
         handler: () => {
           
             window.open("https://medium.com/@sanathkt/how-chinas-new-transistors-could-reshape-global-computing-36bbc81724e8?source=rss-cbe0def0a051------2", "_blank");
-          
-        },
-      },{id: "post-magnetic-cooling-revolutionizing-refrigeration-technology",
-        
-          title: 'Magnetic Cooling: Revolutionizing Refrigeration Technology <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@sanathkt/magnetic-cooling-revolutionizing-refrigeration-technology-2fd26189fecb?source=rss-cbe0def0a051------2", "_blank");
-          
-        },
-      },{id: "post-the-man-who-pulled-bread-from-air-and-gas-from-hell",
-        
-          title: 'The Man Who Pulled Bread from Air and Gas from Hell <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@sanathkt/the-man-who-pulled-bread-from-air-and-gas-from-hell-5a87421aae33?source=rss-cbe0def0a051------2", "_blank");
           
         },
       },{id: "post-fourier-transforms-seeing-sounds",
