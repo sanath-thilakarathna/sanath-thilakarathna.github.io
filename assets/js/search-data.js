@@ -37,18 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-the-transistor-story-episode-1-before-the-spark",
-        
-          title: "The Transistor Story: Episode 1 – Before the Spark",
-        
-        description: "Explore the fascinating origins of electricity, electromagnetism, and semiconductors that set the stage for the invention of the transistor.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/post-01-before-the-spark/";
-          
-        },
-      },{id: "post-how-microcontrollers-39-see-39-the-real-world",
+        },{id: "post-how-microcontrollers-39-see-39-the-real-world",
         
           title: "How Microcontrollers &#39;See&#39; the Real World",
         
