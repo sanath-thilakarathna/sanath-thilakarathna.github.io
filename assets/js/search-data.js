@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-how-microcontrollers-39-see-39-the-real-world",
+        },{id: "post-why-sumatra-pdf-boosted-my-reading-efficiency",
+        
+          title: 'Why Sumatra PDF Boosted My Reading Efficiency? <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanathkt/why-sumatra-pdf-boosted-my-reading-efficiency-35c740a0db76?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-how-microcontrollers-39-see-39-the-real-world",
         
           title: "How Microcontrollers &#39;See&#39; the Real World",
         
@@ -178,17 +189,6 @@ ninja.data = [{
         handler: () => {
           
             window.open("https://medium.com/@sanathkt/thorium-reactors-powering-the-future-with-safer-smarter-nuclear-energy-a6d2a6c16764?source=rss-cbe0def0a051------2", "_blank");
-          
-        },
-      },{id: "post-how-china-s-new-transistors-could-reshape-global-computing",
-        
-          title: 'How China’s New Transistors Could Reshape Global Computing <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@sanathkt/how-chinas-new-transistors-could-reshape-global-computing-36bbc81724e8?source=rss-cbe0def0a051------2", "_blank");
           
         },
       },{id: "post-fourier-transforms-seeing-sounds",
