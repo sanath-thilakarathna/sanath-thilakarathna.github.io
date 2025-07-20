@@ -635,7 +635,7 @@ ninja.data = [{
         title: 'Medium',
         section: 'Socials',
         handler: () => {
-          window.open("https://medium.com/@sanaththi", "_blank");
+          window.open("https://medium.com/@sanathkt", "_blank");
         },
       },{
         id: 'social-whatsapp',
