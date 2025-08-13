@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-why-sumatra-pdf-boosted-my-reading-efficiency",
+        },{id: "post-is-ai-really-intelligent-here-s-the-truth",
+        
+          title: 'Is AI Really Intelligent? Here’s the Truth <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanathkt/is-ai-really-intelligent-heres-the-truth-617db0e58d11?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-why-sumatra-pdf-boosted-my-reading-efficiency",
         
           title: 'Why Sumatra PDF Boosted My Reading Efficiency? <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
@@ -178,17 +189,6 @@ ninja.data = [{
         handler: () => {
           
             window.open("https://medium.com/@sanathkt/types-of-databases-an-overview-for-modern-applications-8b13cc517de4?source=rss-cbe0def0a051------2", "_blank");
-          
-        },
-      },{id: "post-thorium-reactors-powering-the-future-with-safer-smarter-nuclear-energy",
-        
-          title: 'Thorium Reactors: Powering the Future with Safer, Smarter Nuclear Energy <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@sanathkt/thorium-reactors-powering-the-future-with-safer-smarter-nuclear-energy-a6d2a6c16764?source=rss-cbe0def0a051------2", "_blank");
           
         },
       },{id: "post-fourier-transforms-seeing-sounds",
