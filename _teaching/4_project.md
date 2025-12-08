@@ -77,4 +77,7 @@ Here's the code for the last row of images above:
 </div>
 ```
 
+[Download Project Files](../../assets/pdf/Mr_Sanath_Thilakarathna_CV_Edu.pdf){: .btn .btn-primary}
+
+
 {% endraw %}
