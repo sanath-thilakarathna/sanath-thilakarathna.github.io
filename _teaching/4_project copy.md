@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: LaTeX Guide
+description: Teaching LaTex for Engineering and Scientific Documantation
 img:
 importance: 3
 category: fun
@@ -64,7 +64,7 @@ Just wrap your images with `<div class="col-sm">` and place them inside `<div cl
 To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
 Here's the code for the last row of images above:
 
-{% raw %}
+
 
 ```html
 <div class="row justify-content-sm-center">
@@ -80,4 +80,3 @@ Here's the code for the last row of images above:
 [Download Project Files](../../assets/pdf/Mr_Sanath_Thilakarathna_CV_Edu.pdf){: .btn .btn-primary}
 
 
-{% endraw %}
