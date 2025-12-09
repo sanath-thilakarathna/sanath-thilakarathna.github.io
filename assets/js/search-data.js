@@ -597,11 +597,16 @@ ninja.data = [{
           description: "A micromouse robot for competitions",
           section: "Projects",handler: () => {
               window.location.href = "/projects/micromouserobot/";
-            },},{id: "teaching-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "teaching-latex-guide-basics",
+          title: 'LaTeX Guide - Basics',
+          description: "Teaching LaTex for Engineering and Scientific Documantation",
           section: "Teaching",handler: () => {
-              window.location.href = "/teaching/4_project/";
+              window.location.href = "/teaching/1_latex_guide_basics/";
+            },},{id: "teaching-latex-guide",
+          title: 'LaTeX Guide',
+          description: "Teaching LaTex for Engineering and Scientific Documantation",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/4_project%20copy/";
             },},{
         id: 'social-email',
         title: 'email',
