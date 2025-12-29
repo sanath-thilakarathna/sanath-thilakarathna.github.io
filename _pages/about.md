@@ -3,6 +3,8 @@ layout: about
 title: About
 permalink: /
 subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+description: Sanath Thilakarathna — Mechatronics Engineer and Lecturer in Sri Lanka. Robotics, embedded systems, microcontrollers, real-time systems.
+keywords: Sanath Thilakarathna, Sanath, Mechatronics Engineer, Robotics, Embedded Systems, Microcontrollers, Real-time Systems, CINEC
 
 profile:
   align: right
@@ -20,7 +22,7 @@ announcements:
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  scrollable: false # cards expand naturally (no scroll container)
   limit: 3 # leave blank to include all the blog posts
 ---
 
