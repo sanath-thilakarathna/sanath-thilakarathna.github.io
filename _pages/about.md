@@ -26,10 +26,10 @@ latest_posts:
 
 
 
-I'm **Sanath Thilakarathna**, a Mechatronics Engineer and Lecturer based in Sri Lanka, with a passion for **mechanical design, robotics, automation**, and **sustainable technologies**. I hold a **BSc. (Hons) in Mechanical and Manufacturing Engineering** from the University of Ruhuna and have strengthened my expertise with certifications in **project management, rapid prototyping, PLC development**, and **scientific computing**.
+I am Sanath Thilakarathna, a Mechatronics Engineer and Lecturer based in Sri Lanka, currently teaching Mechatronics Engineering at CINEC. I specialize in systems engineering for robotic and embedded systems, where hardware, software, and control are designed as an integrated whole.
 
-My technical background includes **CAD/CAM tools** (SolidWorks, Fusion 360), programming in **Python, C++, MATLAB**, and hands-on experience with **PCB design, CNC machining, welding**, and **embedded systems**.
+My expertise lies in embedded systems, microcontrollers, and real-time system development, with strong proficiency in C/C++, Python, and MATLAB. I work extensively in hardware–software co-design, focusing on system architecture, sensor–actuator integration, timing constraints, and reliability, particularly in robotics and automation applications.
 
-Currently, I teach **Mechatronics Engineering at CINEC**, combining academic instruction with practical insights. I also produce educational content in Sinhala and English and pursue research in **microcontrollers, automation, machine learning**, and **mechanism design**.
+My research interests include robotics, computer vision, embedded intelligence, real-time systems, and applied machine learning on resource-constrained platforms, with an emphasis on deterministic behavior and deployable, industry-oriented solutions.
 
-I’m driven by a passion for lifelong learning and innovation, aiming to build impactful solutions that advance technology and improve industrial efficiency.
+Alongside teaching and research, I actively develop technical educational content in Sinhala and English, aiming to bridge theory and practice through rigorous systems-level thinking. I am driven by lifelong learning, disciplined engineering design, and research-oriented problem solving, with the long-term goal of advancing sustainable and practical robotic technologies.
