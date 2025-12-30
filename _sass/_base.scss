@@ -899,13 +899,16 @@ figure.highlight {
 }
 
 pre {
-  color: var(--global-text-color);
+  color: inherit;
   background-color: var(--global-code-bg-color);
-  border-radius: 6px;
-  padding: 6px 12px;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
   font-family: var(--global-font-family-mono);
   font-size: 0.95rem;
   line-height: 1.6;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 
   pre,
   code {
@@ -919,8 +922,9 @@ pre {
 code {
   color: var(--global-theme-color);
   background-color: var(--global-code-bg-color);
+  border: 1px solid var(--global-divider-color);
   border-radius: 3px;
-  padding: 3px 3px;
+  padding: 0.15em 0.35em;
   font-family: var(--global-font-family-mono);
 }
 
@@ -937,6 +941,50 @@ code {
 .post-content {
   font-size: 1.06rem;
   line-height: 1.85;
+}
+
+// Long-form reading improvements (blog posts)
+.post-content #markdown-content {
+  max-width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-content #markdown-content {
+  p {
+    margin: 0 0 1.15rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin-top: 2.2rem;
+    margin-bottom: 0.85rem;
+  }
+
+  h2 {
+    padding-top: 0.25rem;
+    border-top: 1px solid transparent;
+  }
+
+  ul,
+  ol {
+    margin-bottom: 1.15rem;
+    padding-left: 1.25rem;
+  }
+
+  li + li {
+    margin-top: 0.35rem;
+  }
+
+  blockquote {
+    margin: 1.5rem 0;
+  }
+
+  pre {
+    margin: 1.25rem 0;
+  }
 }
 
 // Transitioning Themes
