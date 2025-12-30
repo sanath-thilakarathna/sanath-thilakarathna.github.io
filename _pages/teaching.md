@@ -8,7 +8,7 @@ nav_order: 5
 ---
 
 <!-- pages/teaching.md -->
-<p>
+  <p>
   Here you’ll find teaching materials and course resources.
   Items are ordered by <code>importance</code> (lower means higher priority).
 </p>
@@ -29,30 +29,38 @@ nav_order: 5
   <div class="container">
     <div class="col-md-12">
     <h3>Featured</h3>
+    <div class="row row-cols-1 row-cols-md-2">
     {% for project in featured_teaching %}
       {% include teaching_horizontal.liquid %}
     {% endfor %}
+    </div>
 
     {% if remaining_teaching and remaining_teaching.size > 0 %}
       <h3>More</h3>
+      <div class="row row-cols-1 row-cols-md-2">
       {% for project in remaining_teaching %}
         {% include teaching_horizontal.liquid %}
       {% endfor %}
+      </div>
     {% endif %}
     </div>
   </div>
   {% else %}
   <div class="col-md-12">
     <h3>Featured</h3>
+    <div class="row row-cols-1 row-cols-md-3">
     {% for project in featured_teaching %}
       {% include teaching.liquid %}
     {% endfor %}
+    </div>
 
     {% if remaining_teaching and remaining_teaching.size > 0 %}
       <h3>More</h3>
+      <div class="row row-cols-1 row-cols-md-3">
       {% for project in remaining_teaching %}
         {% include teaching.liquid %}
       {% endfor %}
+      </div>
     {% endif %}
   </div>
   {% endif %}
@@ -73,30 +81,38 @@ nav_order: 5
   <div class="container">
     <div class="col-md-12">
     <h3>Featured</h3>
+    <div class="row row-cols-1 row-cols-md-2">
     {% for project in featured_teaching %}
       {% include teaching_horizontal.liquid %}
     {% endfor %}
+    </div>
 
     {% if remaining_teaching and remaining_teaching.size > 0 %}
       <h3>More</h3>
+      <div class="row row-cols-1 row-cols-md-2">
       {% for project in remaining_teaching %}
         {% include teaching_horizontal.liquid %}
       {% endfor %}
+      </div>
     {% endif %}
     </div>
   </div>
   {% else %}
-  <div class="rcol-md-12">
+  <div class="col-md-12">
     <h3>Featured</h3>
+    <div class="row row-cols-1 row-cols-md-3">
     {% for project in featured_teaching %}
       {% include teaching.liquid %}
     {% endfor %}
+    </div>
 
     {% if remaining_teaching and remaining_teaching.size > 0 %}
       <h3>More</h3>
+      <div class="row row-cols-1 row-cols-md-3">
       {% for project in remaining_teaching %}
         {% include teaching.liquid %}
       {% endfor %}
+      </div>
     {% endif %}
   </div>
   {% endif %}

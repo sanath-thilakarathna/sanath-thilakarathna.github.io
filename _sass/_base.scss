@@ -19,6 +19,21 @@ strong {
   color: var(--global-text-color);
 }
 
+h1,
+h2,
+h3 {
+  letter-spacing: -0.02em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -168,6 +183,9 @@ ul.task-list input[type="checkbox"] {
 
 .card {
   background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.85rem;
+  transition: transform 180ms ease, box-shadow 180ms ease;
 
   .card-img {
     width: 100%;
@@ -176,11 +194,17 @@ ul.task-list input[type="checkbox"] {
 
   .card-title {
     color: var(--global-text-color);
+    font-weight: 600;
+    line-height: 1.25;
   }
 
   .card-body {
     padding: 1.25rem 1.25rem 1.25rem 1.25rem;
   }
+}
+
+.card.hoverable:hover {
+  transform: translateY(-2px);
 }
 
 // Citation
@@ -554,7 +578,8 @@ footer.sticky-bottom {
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    letter-spacing: -0.03em;
   }
 }
 
@@ -877,10 +902,13 @@ figure.highlight {
 }
 
 pre {
-  color: var(--global-theme-color);
+  color: var(--global-text-color);
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
+  font-family: var(--global-font-family-mono);
+  font-size: 0.95rem;
+  line-height: 1.6;
 
   pre,
   code {
@@ -896,6 +924,22 @@ code {
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
+  font-family: var(--global-font-family-mono);
+}
+
+.post-header {
+  margin-bottom: 1.25rem;
+}
+
+.post-header .post-title {
+  font-size: clamp(1.85rem, 2.2vw, 2.6rem);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+}
+
+.post-content {
+  font-size: 1.06rem;
+  line-height: 1.85;
 }
 
 // Transitioning Themes
