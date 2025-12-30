@@ -10,7 +10,7 @@
   --global-font-mono: ui-monospace, "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --global-font-family: var(--global-font-sans);
   --global-font-family-mono: var(--global-font-mono);
-  --global-bg-color: #{color.mix($white-color, $grey-color-light, 92%)};
+  --global-bg-color: #{color.mix($white-color, $blue-color, 97%)};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$grey-900};
   --global-text-color-light: #{$grey-color};
@@ -27,7 +27,7 @@
     #{color.channel($black-color, "blue", $space: rgb)},
     0.08
   );
-  --global-card-bg-color: #{$white-color};
+  --global-card-bg-color: #{color.mix($white-color, $blue-color, 98%)};
   --global-highlight-color: #{$blue-color-dark};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
@@ -91,8 +91,8 @@ html[data-theme="dark"] {
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$light-cyan-color};
-  --global-hover-color: #{$light-cyan-color};
+  --global-theme-color: #{$blue-color-light};
+  --global-hover-color: #{$blue-color-light};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
