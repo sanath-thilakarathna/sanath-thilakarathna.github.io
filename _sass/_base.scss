@@ -309,10 +309,12 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-brand {
     color: var(--global-text-color);
+    font-weight: 600;
   }
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    font-weight: 500;
 
     &:hover {
       color: var(--global-hover-color);
@@ -321,7 +323,7 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
-    font-weight: bolder;
+    font-weight: 650;
     color: var(--global-theme-color);
 
     &:hover {
