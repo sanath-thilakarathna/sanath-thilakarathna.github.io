@@ -1,0 +1,24 @@
+<aside class="blog-floating-sidebar blog-floating-sidebar-left" aria-label="Medium posts">
+  {% assign medium_posts = site.posts | where: 'external_source', 'medium.com' %}
+  {% if medium_posts.size > 0 %}
+    <div class="card mb-4">
+      <div class="card-body">
+        <h5 class="card-title">From Medium</h5>
+        <ul class="list-unstyled mb-0">
+          {% for post in medium_posts limit: 8 %}
+            <li class="mb-2">
+              {% if post.redirect contains '://' %}
+                <a href="{{ post.redirect }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
+              {% else %}
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              {% endif %}
+              <div class="text-muted" style="font-size: 0.85em;">
+                {{ post.date | date: '%b %d, %Y' }}
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  {% endif %}
+</aside>
