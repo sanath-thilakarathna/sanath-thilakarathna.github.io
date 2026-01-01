@@ -193,4 +193,38 @@ pagination:
 {% include pagination.liquid %}
 {% endif %}
 
+  <aside class="blog-floating-sidebar" aria-label="Blog categories and tags">
+    <div class="card mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Categories</h5>
+        <ul class="list-unstyled mb-0">
+          {% assign sorted_categories = site.categories | sort %}
+          {% for category in sorted_categories %}
+            <li>
+              <a href="{{ category[0] | slugify | prepend: '/blog/category/' | relative_url }}">
+                <i class="fa-solid fa-tag fa-sm"></i> {{ category[0] }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Tags</h5>
+        <ul class="list-unstyled mb-0">
+          {% assign sorted_tags = site.tags | sort %}
+          {% for tag in sorted_tags %}
+            <li>
+              <a href="{{ tag[0] | slugify | prepend: '/blog/tag/' | relative_url }}">
+                <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag[0] }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </aside>
+
 </div>
