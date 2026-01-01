@@ -3,7 +3,7 @@ layout: post
 title: "The Age of Classical Physics: A World of Certainty"
 date: 2025-02-11 22:40:16
 description: "An in-depth exploration of classical physics before the quantum revolution, covering Newtonian mechanics, Maxwell's electromagnetism, thermodynamics, and the early signs of cracks in the classical framework."
-tags: 
+tags:
 categories: Physics, Quantum Mechanics
 featured: false
 pretty_table: true
@@ -21,7 +21,7 @@ Classical physics was built on three major foundations:
 
 ### 1. **Newtonian Mechanics: The Laws of Motion and Gravitation**
 
-In 1687, Sir Isaac Newton published *Philosophiæ Naturalis Principia Mathematica*, laying the groundwork for mechanics. His three laws of motion became fundamental principles that could explain the movement of objects, from falling apples to planetary orbits.
+In 1687, Sir Isaac Newton published _Philosophiæ Naturalis Principia Mathematica_, laying the groundwork for mechanics. His three laws of motion became fundamental principles that could explain the movement of objects, from falling apples to planetary orbits.
 
 - **First Law (Inertia):** An object remains at rest or in uniform motion in a straight line unless acted upon by an external force. This principle was in direct contrast to Aristotelian physics, which required continuous force to maintain motion.
 - **Second Law (Force and Acceleration):** The force acting on an object is equal to the mass of the object multiplied by its acceleration (F = ma). This law provided a quantitative method to describe motion.
@@ -52,7 +52,7 @@ These laws explained everything from steam engines to the structure of the unive
 
 ## **The Confidence in Classical Physics**
 
-By the end of the 19th century, physics seemed to be approaching perfection. Scientists like Lord Kelvin famously declared that physics was nearly complete, with only a few small discrepancies left to be resolved. Pierre-Simon Laplace even suggested that if an intelligence (now known as *Laplace’s Demon*) knew the position and velocity of every particle in the universe, it could predict the future with absolute certainty.
+By the end of the 19th century, physics seemed to be approaching perfection. Scientists like Lord Kelvin famously declared that physics was nearly complete, with only a few small discrepancies left to be resolved. Pierre-Simon Laplace even suggested that if an intelligence (now known as _Laplace’s Demon_) knew the position and velocity of every particle in the universe, it could predict the future with absolute certainty.
 
 Physicists viewed the remaining anomalies as minor inconsistencies that would soon be explained. However, these “minor” problems would soon unravel the entire classical framework and lead to the most profound scientific revolution of the 20th century.
 
@@ -107,6 +107,3 @@ Physicists believed that light waves required a medium to propagate, much like s
 In the next post, we will explore the **ultraviolet catastrophe** and how Max Planck’s groundbreaking idea of quantized energy set the stage for the quantum era.
 
 **Next Post: “The Crisis of Blackbody Radiation: A Problem for Classical Physics.”**
-
-
-

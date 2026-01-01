@@ -19,7 +19,7 @@ A PID controller continuously calculates an **error** value as the difference be
 
 ## **How Each Component in PID Works**
 
-###  **1. Proportional Term (P)**
+### **1. Proportional Term (P)**
 
 The proportional term produces an output proportional to the current error.
 
@@ -202,5 +202,3 @@ int main(void) {
 3. **Position Control**: Robotic arm joint positioning.
 4. **Drone Flight Control**: Stabilize pitch, roll, and yaw.
 5. **Balancing Robots**: Self-balancing robots using accelerometer and gyroscope feedback.
-
-

@@ -4,7 +4,7 @@
 
 title: Sanath Thilakarathna #blank # the website title (if blank, full name will be used instead)
 first_name: Sanath
-middle_name: 
+middle_name:
 last_name: Thilakarathna
 contact_note: >
 
@@ -28,7 +28,7 @@ back_to_top: true # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 
 # repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md 
+repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: true
@@ -87,7 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name:  # blog_name will be displayed in your blog page
+blog_name: # blog_name will be displayed in your blog page
 blog_description: #a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -111,7 +111,7 @@ giscus:
   strict: 1 # use strict identification mode
   reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
   input_position: bottom # whether to display input form below (bottom) or above (top) the comments
-  theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode) 
+  theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
   lang: en
 
@@ -127,8 +127,8 @@ external_sources:
     rss_url: https://medium.com/@sanathkt/feed
   #- name: Google Blog
   #  posts:
-   #   - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-    #    published_date: 2024-05-14
+  #   - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+  #    published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter

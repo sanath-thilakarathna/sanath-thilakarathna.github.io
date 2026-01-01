@@ -90,7 +90,7 @@ C was created out of necessity. The limitations of existing languages like B and
 
 C's creation marked a turning point in programming history. It became the foundation for many modern programming languages and continues to influence software development today.
 
-For additional reading, explore [C Programming Language Overview](https://en.wikipedia.org/wiki/C_\(programming_language\)).
+For additional reading, explore [C Programming Language Overview](<https://en.wikipedia.org/wiki/C_(programming_language)>).
 
 ---
 

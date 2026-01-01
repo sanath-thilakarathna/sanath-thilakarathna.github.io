@@ -34,7 +34,7 @@
       "highlights": ["Mechatronics Engineering", "Robotics", "Embedded Systems", "Automation"]
     }
   ],
-  
+
   "education": [
     {
       "institution": "Faculty of Engineering, University of Moratuwa",
@@ -45,7 +45,9 @@
       "startDate": "2025-07-18",
       "endDate": "",
       "score": "",
-      "courses": ["Sensors and Actuators for Automation, Embedded Systems Design and Implemntation, Mechatronics, Industrial Robotics, Digital Controls, Real-time Systems"]
+      "courses": [
+        "Sensors and Actuators for Automation, Embedded Systems Design and Implemntation, Mechatronics, Industrial Robotics, Digital Controls, Real-time Systems"
+      ]
     },
     {
       "institution": "Faculty of Engineering, University of Ruhuna",
@@ -77,42 +79,24 @@
       "name": "Mechatronics Engineering",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Embedded Systems)",
-        "Control Systems",
-        "Robotics",
-        "Automation",
-        "Sensors and Actuators",
-        "Electromechanical Systems"
-      ]
+      "keywords": ["Embedded Systems)", "Control Systems", "Robotics", "Automation", "Sensors and Actuators", "Electromechanical Systems"]
     }
   ],
   "interests": [
     {
       "name": "Embedded Systems",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Microcontrollers",
-        "Digital Signal Processing"
-      ]
+      "keywords": ["Microcontrollers", "Digital Signal Processing"]
     },
     {
       "name": "Robotics",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Autonomous Systems",
-        "Robotic Manipulation",
-        "Machine Learning in Robotics",
-        "Computer Vision"
-      ]
+      "keywords": ["Autonomous Systems", "Robotic Manipulation", "Machine Learning in Robotics", "Computer Vision"]
     },
     {
       "name": "Material Science",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Smart Materials",
-        "Mycelium Composites"
-      ]
+      "keywords": ["Smart Materials", "Mycelium Composites"]
     }
   ]
 }

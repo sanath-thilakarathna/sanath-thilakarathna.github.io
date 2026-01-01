@@ -28,4 +28,4 @@ I designed this robot with collaboration of Mr.Veelochana Sigera and Mr.Eranda S
     Autonomous Delivery Robot - Chassie and Wheels.
 </div>
 
-Using this robot we expect to deliver goods inside of buildings. Still this is in under development stage. 
+Using this robot we expect to deliver goods inside of buildings. Still this is in under development stage.

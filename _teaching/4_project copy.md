@@ -64,8 +64,6 @@ Just wrap your images with `<div class="col-sm">` and place them inside `<div cl
 To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
 Here's the code for the last row of images above:
 
-
-
 ```html
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
@@ -78,5 +76,3 @@ Here's the code for the last row of images above:
 ```
 
 [Download Project Files](../../assets/pdf/Mr_Sanath_Thilakarathna_CV_Edu.pdf){: .btn .btn-primary}
-
-

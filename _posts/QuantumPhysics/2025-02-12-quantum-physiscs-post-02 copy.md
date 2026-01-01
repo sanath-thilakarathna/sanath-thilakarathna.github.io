@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: "The Crisis of Blackbody Radiation: A Problem for Classical Physics"
 date: 2025-02-12 22:40:16
@@ -53,7 +52,7 @@ where:
 - \(T\) is the absolute temperature,
 - \(c\) is the speed of light.
 
-**The problem:** According to this equation, as frequency (\(\nu\)) increases, the energy radiated should increase without bound, leading to an infinite amount of energy emitted at high frequencies. This absurd result, called the *ultraviolet catastrophe*, was a direct contradiction of experimental data, which showed a peak followed by a decline in radiation at higher frequencies.
+**The problem:** According to this equation, as frequency (\(\nu\)) increases, the energy radiated should increase without bound, leading to an infinite amount of energy emitted at high frequencies. This absurd result, called the _ultraviolet catastrophe_, was a direct contradiction of experimental data, which showed a peak followed by a decline in radiation at higher frequencies.
 
 ### **Wien’s Law: A Partial Success**
 
@@ -106,4 +105,3 @@ Planck’s discovery marked the first major break from classical physics and the
 ---
 
 **Next Post: “Einstein’s Photoelectric Effect: The Birth of the Photon.”**
-

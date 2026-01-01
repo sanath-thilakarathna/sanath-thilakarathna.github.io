@@ -166,7 +166,7 @@ pagination:
 {% include pagination.liquid %}
 {% endif %}
 
-  {% include medium_sidebar.liquid %}
-  {% include blog_sidebar.liquid %}
+{% include medium_sidebar.liquid %}
+{% include blog_sidebar.liquid %}
 
 </div>

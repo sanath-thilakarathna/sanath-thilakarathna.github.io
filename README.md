@@ -16,6 +16,7 @@ docker compose up
 ```
 
 Then open:
+
 - http://localhost:8080
 
 ### Open an interactive shell in the container

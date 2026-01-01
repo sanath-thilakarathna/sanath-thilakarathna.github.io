@@ -26,8 +26,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-
-
 I am Sanath Thilakarathna, a Mechatronics Engineer and Lecturer based in Sri Lanka, currently teaching Mechatronics Engineering at CINEC. I specialize in systems engineering for robotic and embedded systems, where hardware, software, and control are designed as an integrated whole.
 
 My expertise lies in embedded systems, microcontrollers, and real-time system development, with strong proficiency in C/C++, Python, and MATLAB. I work extensively in hardware–software co-design, focusing on system architecture, sensor–actuator integration, timing constraints, and reliability, particularly in robotics and automation applications.

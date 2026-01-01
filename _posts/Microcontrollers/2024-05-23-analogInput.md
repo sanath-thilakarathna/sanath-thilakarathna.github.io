@@ -36,31 +36,34 @@ The SAR ADC works by systematically "guessing" the input voltage and refining it
 2.  **Comparison with Reference:** The held analog voltage ($V_{in}$) is then compared against a known **reference voltage ($V_{ref}$)**, which defines the full-scale range of the ADC (e.g., 0V to 5V).
 
 3.  **Successive Approximation:** This is the iterative process:
-    * The SAR ADC starts by setting its most significant bit (MSB) to '1' and feeding this digital value to an internal **Digital-to-Analog Converter (DAC)**.
-    * The DAC converts this digital guess back into an analog voltage.
-    * A **comparator** then compares this DAC output voltage with the actual analog input voltage ($V_{in}$).
-    * If the DAC output is *greater* than $V_{in}$, the MSB is reset to '0'. If it's *less than or equal to*, the MSB remains '1'.
-    * This process repeats for each successive bit, moving from the MSB down to the least significant bit (LSB). For each bit, the ADC makes a guess (sets the bit to '1'), converts it to analog, compares it, and then keeps or discards the bit based on the comparison.
+
+    - The SAR ADC starts by setting its most significant bit (MSB) to '1' and feeding this digital value to an internal **Digital-to-Analog Converter (DAC)**.
+    - The DAC converts this digital guess back into an analog voltage.
+    - A **comparator** then compares this DAC output voltage with the actual analog input voltage ($V_{in}$).
+    - If the DAC output is _greater_ than $V_{in}$, the MSB is reset to '0'. If it's _less than or equal to_, the MSB remains '1'.
+    - This process repeats for each successive bit, moving from the MSB down to the least significant bit (LSB). For each bit, the ADC makes a guess (sets the bit to '1'), converts it to analog, compares it, and then keeps or discards the bit based on the comparison.
 
 4.  **Digital Output:** After all bits have been tested and determined, the SAR contains the final binary code that represents the digital approximation of the analog input voltage. This digital value is then made available to the microcontroller's CPU.
 
 **Example (Simplified 3-bit ADC with 0-8V range, $V_{ref}=8V$):**
 Let's say $V_{in} = 5.5V$.
 
-* **Step 1 (MSB - 4V):**
-    * SAR sets MSB (bit 2) to '1' -> Digital guess: `100` (binary for 4).
-    * DAC converts `100` to $4V$.
-    * Comparator: $4V < 5.5V$ (True). So, bit 2 remains '1'. SAR is now `1XX`.
+- **Step 1 (MSB - 4V):**
 
-* **Step 2 (Next bit - 2V):**
-    * SAR sets next bit (bit 1) to '1' -> Digital guess: `110` (binary for 6).
-    * DAC converts `110` to $6V$.
-    * Comparator: $6V > 5.5V$ (False). So, bit 1 is reset to '0'. SAR is now `10X`.
+  - SAR sets MSB (bit 2) to '1' -> Digital guess: `100` (binary for 4).
+  - DAC converts `100` to $4V$.
+  - Comparator: $4V < 5.5V$ (True). So, bit 2 remains '1'. SAR is now `1XX`.
 
-* **Step 3 (LSB - 1V):**
-    * SAR sets LSB (bit 0) to '1' -> Digital guess: `101` (binary for 5).
-    * DAC converts `101` to $5V$.
-    * Comparator: $5V < 5.5V$ (True). So, bit 0 remains '1'. SAR is now `101`.
+- **Step 2 (Next bit - 2V):**
+
+  - SAR sets next bit (bit 1) to '1' -> Digital guess: `110` (binary for 6).
+  - DAC converts `110` to $6V$.
+  - Comparator: $6V > 5.5V$ (False). So, bit 1 is reset to '0'. SAR is now `10X`.
+
+- **Step 3 (LSB - 1V):**
+  - SAR sets LSB (bit 0) to '1' -> Digital guess: `101` (binary for 5).
+  - DAC converts `101` to $5V$.
+  - Comparator: $5V < 5.5V$ (True). So, bit 0 remains '1'. SAR is now `101`.
 
 The final digital output is `101` (decimal 5), which is the closest 3-bit representation of $5.5V$ within the 0-8V range. The resolution of the ADC determines how fine-grained this approximation can be.
 
@@ -68,25 +71,28 @@ The final digital output is `101` (decimal 5), which is the closest 3-bit repres
 
 While SAR ADCs are widely used, especially in microcontrollers due to their balance of speed, resolution, and power efficiency, several other ADC architectures exist, each optimized for different applications and performance needs:
 
-* **Flash ADC:**
-    * **How it works:** This is the fastest ADC type, using a large array of comparators (one for each possible voltage level) that simultaneously compare the input voltage to different reference voltages. The results are fed to an encoder for immediate digital output.
-    * **Pros:** Extremely high speed, capable of single-clock cycle conversions.
-    * **Cons:** Very high power consumption and large silicon area (expensive) for higher resolutions due to the exponential increase in comparators ($2^N - 1$ comparators for N bits). Ideal for very high-speed applications like video digitization or radar.
+- **Flash ADC:**
 
-* **Sigma-Delta ($\Sigma\Delta$) ADC:**
-    * **How it works:** These ADCs achieve very high resolution and accuracy by oversampling the analog signal at a much higher rate than the Nyquist frequency, and then using a technique called "noise shaping" to push quantization noise out of the band of interest. A digital filter then decimates the oversampled data to produce the final high-resolution output.
-    * **Pros:** Exceptional resolution (up to 24 bits or more) and linearity, excellent noise rejection.
-    * **Cons:** Relatively slow conversion speeds compared to Flash or SAR ADCs. Perfect for audio, precision instrumentation, and weigh scales.
+  - **How it works:** This is the fastest ADC type, using a large array of comparators (one for each possible voltage level) that simultaneously compare the input voltage to different reference voltages. The results are fed to an encoder for immediate digital output.
+  - **Pros:** Extremely high speed, capable of single-clock cycle conversions.
+  - **Cons:** Very high power consumption and large silicon area (expensive) for higher resolutions due to the exponential increase in comparators ($2^N - 1$ comparators for N bits). Ideal for very high-speed applications like video digitization or radar.
 
-* **Dual-Slope ADC:**
-    * **How it works:** This type integrates the unknown input voltage for a fixed period. Then, it integrates a known reference voltage of opposite polarity until the integrator output returns to zero. The time it takes for this second integration phase is directly proportional to the unknown input voltage.
-    * **Pros:** Extremely high accuracy and linearity, excellent noise rejection and immunity to component variations.
-    * **Cons:** Very slow conversion speeds. Commonly found in digital multimeters where speed is less critical than precision.
+- **Sigma-Delta ($\Sigma\Delta$) ADC:**
 
-* **Pipelined ADC:**
-    * **How it works:** This architecture divides the conversion process into multiple stages, forming a "pipeline." Each stage converts a few bits of the analog signal and then passes the remaining "residue" (the difference between the input and the converted part) to the next stage for further conversion.
-    * **Pros:** Offers a very good balance of high speed and high resolution, as multiple stages operate concurrently.
-    * **Cons:** More complex design, introduces latency due to the multiple stages. Often used in telecommunications, imaging, and high-speed data acquisition.
+  - **How it works:** These ADCs achieve very high resolution and accuracy by oversampling the analog signal at a much higher rate than the Nyquist frequency, and then using a technique called "noise shaping" to push quantization noise out of the band of interest. A digital filter then decimates the oversampled data to produce the final high-resolution output.
+  - **Pros:** Exceptional resolution (up to 24 bits or more) and linearity, excellent noise rejection.
+  - **Cons:** Relatively slow conversion speeds compared to Flash or SAR ADCs. Perfect for audio, precision instrumentation, and weigh scales.
+
+- **Dual-Slope ADC:**
+
+  - **How it works:** This type integrates the unknown input voltage for a fixed period. Then, it integrates a known reference voltage of opposite polarity until the integrator output returns to zero. The time it takes for this second integration phase is directly proportional to the unknown input voltage.
+  - **Pros:** Extremely high accuracy and linearity, excellent noise rejection and immunity to component variations.
+  - **Cons:** Very slow conversion speeds. Commonly found in digital multimeters where speed is less critical than precision.
+
+- **Pipelined ADC:**
+  - **How it works:** This architecture divides the conversion process into multiple stages, forming a "pipeline." Each stage converts a few bits of the analog signal and then passes the remaining "residue" (the difference between the input and the converted part) to the next stage for further conversion.
+  - **Pros:** Offers a very good balance of high speed and high resolution, as multiple stages operate concurrently.
+  - **Cons:** More complex design, introduces latency due to the multiple stages. Often used in telecommunications, imaging, and high-speed data acquisition.
 
 Each of these ADC types has its own strengths and weaknesses, making them suitable for different applications based on requirements for speed, accuracy, power consumption, and cost.
 
@@ -110,9 +116,9 @@ Here's how it works:
 
 3.  For example, with a 4-20mA sensor and a $250\Omega$ burden resistor:
 
-    * At 4mA, the voltage drop is $4mA \times 250\Omega = 1V$.
+    - At 4mA, the voltage drop is $4mA \times 250\Omega = 1V$.
 
-    * At 20mA, the voltage drop is $20mA \times 250\Omega = 5V$.
+    - At 20mA, the voltage drop is $20mA \times 250\Omega = 5V$.
 
 4.  This resulting $1V$ to $5V$ signal is then connected to the Arduino's analog input pin, which can readily measure it. Your software then scales this voltage reading back to the original current and, subsequently, to the physical measurement (e.g., temperature).
 
@@ -124,27 +130,27 @@ This is where the game changes. If you've connected a 4-20mA sensor directly to 
 
 Here's how these advanced systems operate:
 
-* **Built-in Precision Shunt Resistor:** Unlike a typical Arduino, many NI DAQ cards with current input capabilities have a **precision internal shunt resistor** (also known as a burden resistor) built right into the input channel. When you select a current input mode in the DAQ software (like NI-DAQmx or LabVIEW), the DAQ card automatically routes the incoming current signal through this internal resistor.
+- **Built-in Precision Shunt Resistor:** Unlike a typical Arduino, many NI DAQ cards with current input capabilities have a **precision internal shunt resistor** (also known as a burden resistor) built right into the input channel. When you select a current input mode in the DAQ software (like NI-DAQmx or LabVIEW), the DAQ card automatically routes the incoming current signal through this internal resistor.
 
-* **Integrated Signal Conditioning:** Beyond just the shunt resistor, NI DAQ cards often incorporate sophisticated **signal conditioning circuitry** for current inputs. This can include:
+- **Integrated Signal Conditioning:** Beyond just the shunt resistor, NI DAQ cards often incorporate sophisticated **signal conditioning circuitry** for current inputs. This can include:
 
-    * **Filtering:** To remove noise and interference from the signal.
+  - **Filtering:** To remove noise and interference from the signal.
 
-    * **Amplification:** To ensure the voltage signal is optimized for the ADC's input range.
+  - **Amplification:** To ensure the voltage signal is optimized for the ADC's input range.
 
-    * **Isolation:** Many industrial DAQ modules offer isolation to protect the DAQ system and computer from ground loops and high common-mode voltages, which are common in industrial environments where 4-20mA signals are used.
+  - **Isolation:** Many industrial DAQ modules offer isolation to protect the DAQ system and computer from ground loops and high common-mode voltages, which are common in industrial environments where 4-20mA signals are used.
 
-* **High-Precision ADC:** The voltage generated across the internal shunt resistor is fed into the DAQ card's high-resolution and high-accuracy Analog-to-Digital Converter (ADC). NI DAQ cards are known for their advanced ADCs, which often have 16-bit, 24-bit, or even higher resolution, allowing for very precise measurements over a wide range.
+- **High-Precision ADC:** The voltage generated across the internal shunt resistor is fed into the DAQ card's high-resolution and high-accuracy Analog-to-Digital Converter (ADC). NI DAQ cards are known for their advanced ADCs, which often have 16-bit, 24-bit, or even higher resolution, allowing for very precise measurements over a wide range.
 
-* **Seamless Software Integration:** The NI-DAQmx driver software (and applications like LabVIEW) is designed to understand that you're measuring current. When you configure the input channel for 4-20mA, the software automatically performs the necessary scaling and linearization. It takes the digital value from the ADC, applies the known internal shunt resistance, and converts it into a current value (mA), and then often directly scales that to the physical units (e.g., degrees Celsius for a temperature sensor, PSI for a pressure sensor) based on your sensor's specifications.
+- **Seamless Software Integration:** The NI-DAQmx driver software (and applications like LabVIEW) is designed to understand that you're measuring current. When you configure the input channel for 4-20mA, the software automatically performs the necessary scaling and linearization. It takes the digital value from the ADC, applies the known internal shunt resistance, and converts it into a current value (mA), and then often directly scales that to the physical units (e.g., degrees Celsius for a temperature sensor, PSI for a pressure sensor) based on your sensor's specifications.
 
 ### Why the Difference? Hobbyist vs. Professional Tools
 
 The distinction boils down to design philosophy and application focus:
 
-* **Hobbyist Microcontrollers (e.g., Arduino):** Prioritize versatility, simplicity, and low cost. They provide general-purpose analog inputs, leaving specialized signal conditioning to external components you add.
+- **Hobbyist Microcontrollers (e.g., Arduino):** Prioritize versatility, simplicity, and low cost. They provide general-purpose analog inputs, leaving specialized signal conditioning to external components you add.
 
-* **Professional DAQ Systems (e.g., NI):** Are purpose-built for robust, high-accuracy, and often critical industrial or scientific measurements. They integrate specialized hardware and software for common industrial signals like 4-20mA to offer convenience, reliability, and precision right out of the box.
+- **Professional DAQ Systems (e.g., NI):** Are purpose-built for robust, high-accuracy, and often critical industrial or scientific measurements. They integrate specialized hardware and software for common industrial signals like 4-20mA to offer convenience, reliability, and precision right out of the box.
 
 ### Conclusion
 

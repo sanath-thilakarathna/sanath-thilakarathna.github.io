@@ -3,12 +3,13 @@ layout: post
 title: Difference Between Microprocessors and Microcontrollers
 date: 2024-08-01 16:40:16
 description: In the world of embedded systems and computing, the terms microprocessor and microcontroller often come up, and while they might sound similar, they serve different purposes and have distinct characteristics. Let's delve into the key differences between these two crucial components.
-tags: 
+tags:
 categories: Microcontrollers
 featured: false
 ---
 
 ### Microprocessors
+
 - microprocessor is the heart of a computer system. It is designed to perform arithmetic and logic operations and act as the brain of the computer. Here are some of its defining features:
 
 - Core Functionality: Microprocessors primarily focus on computation and processing tasks. They are used in systems where complex and intensive processing is required, such as personal computers, laptops, and servers.
@@ -22,6 +23,7 @@ featured: false
 - Applications: They are used in systems requiring substantial processing power, like desktops, servers, gaming consoles, and advanced computing devices.
 
 ### Microcontrollers
+
 - A microcontroller, on the other hand, is a compact integrated circuit designed to govern a specific operation in an embedded system. Here are its main characteristics:
 
 - Core Functionality: Microcontrollers are designed for control-oriented applications. They are used to manage specific functions in embedded systems, providing simple processing capabilities along with integrated peripherals.

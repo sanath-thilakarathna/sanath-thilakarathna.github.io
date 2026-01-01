@@ -44,6 +44,7 @@ nav_order: 5
       </div>
     {% endif %}
     </div>
+
   </div>
   {% else %}
   <div class="col-md-12">
@@ -62,6 +63,7 @@ nav_order: 5
       {% endfor %}
       </div>
     {% endif %}
+
   </div>
   {% endif %}
   {% endfor %}
@@ -96,6 +98,7 @@ nav_order: 5
       </div>
     {% endif %}
     </div>
+
   </div>
   {% else %}
   <div class="col-md-12">
@@ -114,8 +117,8 @@ nav_order: 5
       {% endfor %}
       </div>
     {% endif %}
+
   </div>
   {% endif %}
 {% endif %}
 </div>
-

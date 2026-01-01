@@ -16,9 +16,11 @@ This post explores **RAM, ROM, EEPROM**, **stack and heap memory**, and **memory
 ---
 
 ## **2. Types of Memory in Microcontrollers**
+
 Microcontrollers typically contain multiple types of memory, each serving a distinct purpose.
 
 ### **2.1 Random Access Memory (RAM)**
+
 - **Volatile memory** used for temporary data storage.
 - Stores variables, registers, and stack data during program execution.
 - Cleared when power is lost.
@@ -28,6 +30,7 @@ Microcontrollers typically contain multiple types of memory, each serving a dist
   - **Register File** – Contains special function registers for CPU operations.
 
 ### **2.2 Read-Only Memory (ROM)**
+
 - **Non-volatile memory** used to store firmware or bootloaders.
 - Not erased when power is lost.
 - Types of ROM:
@@ -37,6 +40,7 @@ Microcontrollers typically contain multiple types of memory, each serving a dist
   - **Flash ROM** – Electrically erasable and reprogrammable, widely used in modern microcontrollers.
 
 ### **2.3 Electrically Erasable Programmable Read-Only Memory (EEPROM)**
+
 - **Non-volatile memory** used for storing user-configurable data.
 - Can be written and erased multiple times.
 - Commonly used for storing configuration settings, sensor calibration values, and other persistent data.
@@ -45,13 +49,16 @@ Microcontrollers typically contain multiple types of memory, each serving a dist
 ---
 
 ## **3. Microcontroller Memory Architecture**
+
 Microcontrollers use different memory architectures depending on their design.
 
 ### **3.1 Harvard vs. Von Neumann Memory Architecture**
+
 - **Harvard Architecture** – Separate program and data memory, allowing simultaneous access.
 - **Von Neumann Architecture** – Unified memory for program and data, causing potential bottlenecks.
 
 ### **3.2 Memory Segmentation in Microcontrollers**
+
 - **Program Memory** – Stores executable code (ROM/Flash).
 - **Data Memory** – Stores temporary runtime data (RAM).
 - **EEPROM/External Memory** – Used for permanent storage.
@@ -59,9 +66,11 @@ Microcontrollers use different memory architectures depending on their design.
 ---
 
 ## **4. Memory Addressing Modes**
+
 A microcontroller must access memory efficiently to execute instructions. Different **addressing modes** allow flexible data manipulation.
 
 ### **4.1 Immediate Addressing**
+
 - The operand is part of the instruction itself.
 - Example:
   ```assembly
@@ -69,6 +78,7 @@ A microcontroller must access memory efficiently to execute instructions. Differ
   ```
 
 ### **4.2 Direct Addressing**
+
 - The address of the data is specified in the instruction.
 - Example:
   ```assembly
@@ -76,6 +86,7 @@ A microcontroller must access memory efficiently to execute instructions. Differ
   ```
 
 ### **4.3 Indirect Addressing**
+
 - A register holds the memory address of the operand.
 - Example:
   ```assembly
@@ -83,6 +94,7 @@ A microcontroller must access memory efficiently to execute instructions. Differ
   ```
 
 ### **4.4 Indexed Addressing**
+
 - Uses an index register to compute the memory address dynamically.
 - Example:
   ```assembly
@@ -90,6 +102,7 @@ A microcontroller must access memory efficiently to execute instructions. Differ
   ```
 
 ### **4.5 Relative Addressing**
+
 - The memory address is determined relative to the current program counter value.
 - Example:
   ```assembly
@@ -97,6 +110,7 @@ A microcontroller must access memory efficiently to execute instructions. Differ
   ```
 
 ### **4.6 Register Addressing**
+
 - Uses registers for storing operands instead of memory locations.
 - Example:
   ```assembly
@@ -104,6 +118,7 @@ A microcontroller must access memory efficiently to execute instructions. Differ
   ```
 
 ### **4.7 Extended Addressing**
+
 - Allows access to a wider memory range by using additional address bytes.
 - Example:
   ```assembly
@@ -115,6 +130,7 @@ A microcontroller must access memory efficiently to execute instructions. Differ
 ## **5. Stack and Heap in Microcontrollers**
 
 ### **5.1 Stack Memory**
+
 - Used for function calls, return addresses, and local variables.
 - Operates on a **LIFO (Last-In-First-Out)** principle.
 - Controlled by the **Stack Pointer (SP)** register.
@@ -127,6 +143,7 @@ A microcontroller must access memory efficiently to execute instructions. Differ
   ```
 
 ### **5.2 Heap Memory**
+
 - Used for **dynamic memory allocation** at runtime.
 - Managed using **malloc() and free()** in C programming.
 - Grows **upward** in memory (low address to high address).
@@ -144,6 +161,7 @@ A microcontroller must access memory efficiently to execute instructions. Differ
 ---
 
 ## **6. External Memory in Microcontrollers**
+
 Some microcontrollers support external memory to expand storage.
 
 - **SRAM (Static RAM)** – Used for high-speed data storage.
@@ -155,4 +173,3 @@ Some microcontrollers support external memory to expand storage.
 Understanding microcontroller memory systems is crucial for **writing efficient code, optimizing memory usage, and designing robust embedded systems**. In the next post, we will explore **Instruction Set Architectures (RISC vs. CISC) and how microcontrollers execute instructions efficiently.**
 
 Stay tuned! 🚀
-

@@ -22,7 +22,7 @@ To start using LaTeX, you have several options:
 ### LaTeX Editors
 
 - **Overleaf** (Online): A cloud-based LaTeX editor with real-time collaboration features. Perfect for beginners as it requires no installation. Visit [www.overleaf.com](https://www.overleaf.com)
-- **Offline Editors**: 
+- **Offline Editors**:
   - **TeXstudio**: User-friendly desktop editor with built-in tools and viewers
   - **MikTeX**: Complete LaTeX distribution for Windows with integrated editor
   - **MacTeX**: Full LaTeX distribution for macOS
@@ -75,18 +75,18 @@ Understanding this two-part structure is fundamental to mastering LaTeX.
 
 ## Common Commands
 
-| Command | Purpose |
-|---------|---------|
-| `\documentclass{}` | Specifies document type (article, report, thesis, etc.) |
-| `\usepackage{}` | Loads additional packages for extended functionality |
-| `\section{}` | Creates a section heading with automatic numbering |
-| `\subsection{}` | Creates a subsection heading |
-| `\textbf{}` | Makes text bold for emphasis |
-| `\textit{}` | Makes text italic for emphasis |
-| `\begin{equation}` | Creates numbered mathematical equations |
-| `\includegraphics{}` | Inserts images into your document |
-| `\cite{}` | References bibliographic entries |
-| `\label{}` and `\ref{}` | Create cross-references to sections and figures |
+| Command                 | Purpose                                                 |
+| ----------------------- | ------------------------------------------------------- |
+| `\documentclass{}`      | Specifies document type (article, report, thesis, etc.) |
+| `\usepackage{}`         | Loads additional packages for extended functionality    |
+| `\section{}`            | Creates a section heading with automatic numbering      |
+| `\subsection{}`         | Creates a subsection heading                            |
+| `\textbf{}`             | Makes text bold for emphasis                            |
+| `\textit{}`             | Makes text italic for emphasis                          |
+| `\begin{equation}`      | Creates numbered mathematical equations                 |
+| `\includegraphics{}`    | Inserts images into your document                       |
+| `\cite{}`               | References bibliographic entries                        |
+| `\label{}` and `\ref{}` | Create cross-references to sections and figures         |
 
 ## Download Resources
 
@@ -94,5 +94,3 @@ These are the exact teaching materials and examples I use to teach LaTeX in my c
 
 [Download LaTeX Guide PDF](../../assets/pdf/LaTeX_Guide.pdf){: .btn .btn-primary .mr-2}
 [Download Example Files](../../assets/pdf/Sample_LaTeX_Document.zip){: .btn .btn-secondary}
-
-
