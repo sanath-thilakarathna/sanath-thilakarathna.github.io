@@ -2,6 +2,8 @@
  * Content
  ******************************************************************************/
 
+@use "sass:math";
+
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
@@ -42,10 +44,14 @@ body.sticky-bottom-footer {
 }
 
 @media (min-width: 1500px) {
+  $blog-sidebar-width: 260px;
+  $blog-sidebar-gap: 24px;
+  $blog-half-content: math.div($max-content-width, 2);
+
   .blog-floating-sidebar {
     position: fixed;
     top: 96px;
-    width: 260px;
+    width: $blog-sidebar-width;
     max-height: calc(100vh - 128px);
     overflow: auto;
     z-index: 1000;
@@ -53,11 +59,13 @@ body.sticky-bottom-footer {
   }
 
   .blog-floating-sidebar-right {
-    left: calc(50% + #{$max-content-width / 2} + 1.5rem);
+    left: 50%;
+    margin-left: $blog-half-content + $blog-sidebar-gap;
   }
 
   .blog-floating-sidebar-left {
-    left: calc(50% - #{$max-content-width / 2} - 1.5rem - 260px);
+    left: 50%;
+    margin-left: -($blog-half-content + $blog-sidebar-gap + $blog-sidebar-width);
   }
 }
 
