@@ -93,4 +93,8 @@ layout: default
   {% if site.giscus and page.giscus_comments %}
     {% include giscus.liquid %}
   {% endif %}
+
+  {% if url_beginning == '/blog/' %}
+    {% include blog_sidebar.liquid %}
+  {% endif %}
 </div>
