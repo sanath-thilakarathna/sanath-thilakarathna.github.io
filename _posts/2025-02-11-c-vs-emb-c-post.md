@@ -5,7 +5,6 @@ date: 2025-02-02 16:40:16
 description: A guide on writing and using libraries in C, covering static and dynamic libraries, header file organization, and linking.
 tags: 
 categories: Programming
-featured: true
 pretty_table: true
 ---
 
