@@ -5,6 +5,7 @@ description: Teaching LaTex for Engineering and Scientific Documantation
 img:
 importance: 3
 category: lec
+giscus_comments: true
 ---
 
 ## Course Overview
