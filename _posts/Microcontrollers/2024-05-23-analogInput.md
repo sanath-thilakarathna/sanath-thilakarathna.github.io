@@ -7,6 +7,7 @@ tags: Microcontrollers, Analog Input, ADC, Sensors, Data Acquisition, Electronic
 categories: Engineering
 featured: false
 pretty_table: true
+giscus_comments: true
 ---
 
 ## Bridging the Analog-Digital Divide: How Our Devices "See" the Real World (and Why Current Measurement is Tricky!)
