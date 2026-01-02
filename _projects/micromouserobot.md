@@ -5,7 +5,7 @@ description: A micromouse robot for competitions
 img: assets/img/micromouserobot.png
 importance: 2
 category: CAD
-giscus_comments: false
+giscus_comments: true
 ---
 
 <div class="row">

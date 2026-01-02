@@ -6,6 +6,7 @@ description: A guide on writing and using libraries in C, covering static and dy
 tags:
 categories: Programming
 pretty_table: true
+giscus_comments: true
 ---
 
 C is one of the most widely used programming languages, known for its efficiency and flexibility. It serves as the foundation for many system-level applications, including operating systems, compilers, and even modern programming languages. However, when working with microcontrollers and embedded systems, developers often use **Embedded C**, which is a variation of standard C tailored for hardware-specific applications.

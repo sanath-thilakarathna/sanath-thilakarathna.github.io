@@ -6,6 +6,7 @@ img: assets/img/cartonliftingmechanism.png
 importance: 1
 category: CAD
 related_publications: false
+giscus_comments: true
 ---
 
 I designed this carton lifting mechanism during my internship at Dilmah Ceylon Tea Company.

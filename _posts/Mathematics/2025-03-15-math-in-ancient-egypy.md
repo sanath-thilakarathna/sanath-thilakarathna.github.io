@@ -7,6 +7,7 @@ tags: [Mathematics, History, Egypt]
 categories: Mathematics
 featured: false
 pretty_table: true
+giscus_comments: true
 ---
 
 # Mathematics in Ancient Egypt

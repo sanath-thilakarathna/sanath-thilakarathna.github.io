@@ -6,6 +6,7 @@ description: In the world of embedded systems and computing, the terms microproc
 tags:
 categories: Microcontrollers
 featured: false
+giscus_comments: true
 ---
 
 ### Microprocessors

@@ -7,6 +7,7 @@ tags: [Mathematics, History, Mesopotamia]
 categories: Mathematics
 featured: false
 pretty_table: true
+giscus_comments: true
 ---
 
 Ancient Mesopotamia, often regarded as the cradle of civilization, was home to some of the earliest advancements in mathematics. The Babylonians, who lived in this region around 3000 BCE, developed a sophisticated numerical system, algebraic techniques, and applications in astronomy and commerce that influenced later civilizations. The mathematical knowledge of the Babylonians was recorded on clay tablets, many of which have been preserved, providing valuable insight into their computational methods and practical applications.

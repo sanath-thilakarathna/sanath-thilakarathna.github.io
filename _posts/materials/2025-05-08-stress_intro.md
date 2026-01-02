@@ -7,6 +7,7 @@ tags: Material Mechanics, Engineering Design, Stress Analysis
 categories: Engineering
 featured: false
 pretty_table: true
+giscus_comments: true
 ---
 
 Understanding stress is like learning how materials react when you push, pull, or press on them. In engineering, _stress_ has nothing to do with feelings—it means the force inside a material when it’s loaded from the outside. It helps us figure out how much a material can resist breaking or changing shape. Knowing about stress is the first step in making sure buildings, machines, and other structures are safe and strong.

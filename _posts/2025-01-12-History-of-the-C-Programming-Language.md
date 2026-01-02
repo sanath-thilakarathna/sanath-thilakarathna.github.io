@@ -5,6 +5,7 @@ date: 2025-01-12 16:40:16
 description: The C programming language has shaped modern computing. In this post, we explore its origins, the languages that preceded it, and its impact on software development.
 tags: Programming
 categories: Programming
+giscus_comments: true
 ---
 
 ### Introduction to the C Programming Language Series

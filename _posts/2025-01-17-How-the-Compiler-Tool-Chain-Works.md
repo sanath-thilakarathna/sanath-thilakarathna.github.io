@@ -6,6 +6,7 @@ description: Understanding how a C compiler toolchain transforms source code int
 tags:
 categories: Programming
 featured: false
+giscus_comments: true
 ---
 
 Compilers play a vital role in transforming human-readable source code into executable programs. In this post, we’ll explore how a typical C compiler toolchain works by breaking it into its main stages. To make this concrete, we’ll use a simple example code snippet and follow it step-by-step from source to executable.

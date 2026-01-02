@@ -8,6 +8,7 @@ categories: Programming
 featured: false
 pretty_table: true
 related_posts: false
+giscus_comments: true
 ---
 
 Have you ever wondered how your music app displays those wavy visual patterns while a song plays? Or how a smartphone can identify your voice and separate it from background noise? The answer lies in a powerful mathematical tool called the **Fourier Transform**.

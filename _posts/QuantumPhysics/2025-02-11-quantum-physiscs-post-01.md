@@ -7,6 +7,7 @@ tags:
 categories: Physics, Quantum Mechanics
 featured: false
 pretty_table: true
+giscus_comments: true
 ---
 
 By the late 19th century, physics was seen as a nearly complete discipline. Newtonian mechanics had successfully described motion and gravity, Maxwell’s equations had unified electricity and magnetism, and thermodynamics had solidified our understanding of energy conservation and entropy. Scientists believed they had uncovered the fundamental laws of nature, with only minor discrepancies remaining to be resolved. Many physicists of the time assumed that these unresolved issues would soon be explained within the classical framework.

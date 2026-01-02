@@ -7,6 +7,7 @@ tags:
 categories: Physics, Quantum Mechanics
 featured: false
 pretty\_table: true
+giscus_comments: true
 ---
 
 By the late 19th century, classical physics appeared to be nearly complete, with Newtonian mechanics, Maxwell’s electromagnetism, and thermodynamics forming a unified framework. However, one critical problem threatened the foundations of this framework: the issue of blackbody radiation. Classical predictions for blackbody radiation led to an absurdity known as the "ultraviolet catastrophe," an apparent paradox where objects should emit infinite energy at high frequencies.

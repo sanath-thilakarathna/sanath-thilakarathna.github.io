@@ -6,6 +6,7 @@ description: The first C compiler was a groundbreaking development that transfor
 tags:
 categories: Programming
 featured: false
+giscus_comments: true
 ---
 
 ### The Birth of the First C Compiler

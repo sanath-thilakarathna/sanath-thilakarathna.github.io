@@ -6,6 +6,7 @@ description: The journey of C and its compiler from their inception to modern ti
 tags:
 categories: Programming
 featured: false
+giscus_comments: true
 ---
 
 ### The Evolution of C and Its Compiler: From the First Version to Modern Day

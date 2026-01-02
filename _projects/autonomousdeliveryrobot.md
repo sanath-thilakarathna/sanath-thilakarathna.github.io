@@ -6,6 +6,7 @@ img: assets/img/autonomousdeliveryrobot.png
 importance: 1
 category: CAD
 related_publications: false
+giscus_comments: true
 ---
 
 I designed this robot with collaboration of Mr.Veelochana Sigera and Mr.Eranda Sanjaya.

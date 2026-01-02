@@ -7,6 +7,7 @@ tags: [Mathematics, History, Prehistoric]
 categories: Mathematics
 featured: false
 pretty_table: true
+giscus_comments: true
 ---
 
 Mathematics is as old as human civilization itself. Long before the development of formal mathematical theories, early humans engaged in numerical thinking to survive, trade, and build their communities. This post explores the origins of mathematical thought in prehistoric times, highlighting early counting systems, number representations, and the practical applications of mathematics in daily life. While prehistoric humans had no formal mathematical notation, their methods of quantifying, measuring, and predicting events laid the groundwork for later civilizations.
