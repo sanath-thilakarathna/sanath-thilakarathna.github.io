@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-is-ai-really-intelligent-here-s-the-truth",
+        },{id: "post-top-down-design-approach",
+        
+          title: "Top-Down Design Approach",
+        
+        description: "An introduction to the Top-Down Design approach in engineering and software development, explaining its benefits and methodology.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/top-down-design-approach/";
+          
+        },
+      },{id: "post-is-ai-really-intelligent-here-s-the-truth",
         
           title: 'Is AI Really Intelligent? Here’s the Truth <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
