@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-top-down-design-approach",
+        },{id: "post-why-video-editing-takes-a-long-time-even-when-you-change-only-a-few-frames",
+        
+          title: "Why Video Editing Takes a Long Time Even When You Change Only a...",
+        
+        description: "If you have ever edited a video and wondered why exporting takes so long even after changing only a few frames, the answer lies in how modern video compression works. This article explains in simple terms how frames, compression, and bitrate affect video editing and why small edits can require processing thousands of frames.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/video-file-size/";
+          
+        },
+      },{id: "post-top-down-design-approach",
         
           title: "Top-Down Design Approach",
         
