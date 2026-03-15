@@ -9,8 +9,7 @@ nav_order: 5
 
 <!-- pages/teaching.md -->
   <p>
-  Here you’ll find teaching materials and course resources.
-  Items are ordered by <code>importance</code> (lower means higher priority).
+  Here I have includes few subjects I teach and their lecture materials I use, feel fee to explore.
 </p>
 
 <div class="teaching">
