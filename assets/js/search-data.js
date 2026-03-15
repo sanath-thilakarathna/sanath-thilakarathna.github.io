@@ -589,6 +589,11 @@ ninja.data = [{
           description: "Teaching LaTex for Engineering and Scientific Documantation",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/1_latex_guide_basics/";
+            },},{id: "teaching-computer-vision-and-image-processing",
+          title: 'Computer Vision and Image Processing',
+          description: "Teaching Image Processing and Computer Vision for engineering students",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/2_image_processing_and_computer_vision/";
             },},{id: "teaching-latex-guide",
           title: 'LaTeX Guide',
           description: "Teaching LaTex for Engineering and Scientific Documantation",
