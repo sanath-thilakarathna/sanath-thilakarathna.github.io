@@ -37,7 +37,62 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-why-video-editing-takes-a-long-time-even-when-you-change-only-a-few-frames",
+        },{id: "post-architecting-intelligence-how-npus-solved-the-von-neumann-bottleneck-for-the-ai-era",
+        
+          title: 'Architecting Intelligence: How NPUs Solved the Von Neumann Bottleneck for the AI Era... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanathkt/architecting-intelligence-how-npus-solved-the-von-neumann-bottleneck-for-the-ai-era-b97e789f4b38?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-artemis-ii-humanity-s-return-to-the-moon",
+        
+          title: 'Artemis II: Humanity’s Return to the Moon <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanathkt/artemis-ii-humanitys-return-to-the-moon-b1846fbd6d05?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-what-is-mechatronics-engineering-a-complete-beginner-friendly-guide",
+        
+          title: "What is Mechatronics Engineering? A Complete Beginner-Friendly Guide",
+        
+        description: "A clear and practical introduction to mechatronics engineering, covering its core components, real-world applications, and career pathways.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/mechatronics/";
+          
+        },
+      },{id: "post-how-did-everything-begin-creation-of-the-universe-through-religion-and-science",
+        
+          title: 'How Did Everything Begin? Creation of the Universe Through Religion and Science <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanathkt/how-did-everything-begin-creation-of-the-universe-through-religion-and-science-7700213a6278?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-why-technology-fails-at-the-worst-possible-moments",
+        
+          title: 'Why Technology Fails at the Worst Possible Moments <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanathkt/why-technology-fails-at-the-worst-possible-moments-eff9dcb60658?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-why-video-editing-takes-a-long-time-even-when-you-change-only-a-few-frames",
         
           title: "Why Video Editing Takes a Long Time Even When You Change Only a...",
         
@@ -158,39 +213,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/stress_intro/";
           
         },
-      },{id: "post-the-rise-and-fall-of-skype-a-digital-pioneer-bows-out",
-        
-          title: 'The Rise and Fall of Skype: A Digital Pioneer Bows Out <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@sanathkt/the-rise-and-fall-of-skype-a-digital-pioneer-bows-out-3e867a46c369?source=rss-cbe0def0a051------2", "_blank");
-          
-        },
-      },{id: "post-the-mathematician-who-built-the-bomb-then-built-the-field-of-game-theory",
-        
-          title: 'The Mathematician Who Built the Bomb — Then Built the Field of Game Theory <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@sanathkt/the-mathematician-who-built-the-bomb-then-built-the-field-of-game-theory-8a63f09071b7?source=rss-cbe0def0a051------2", "_blank");
-          
-        },
-      },{id: "post-why-sri-lanka-uses-bs-1363-electrical-plugs-and-sockets",
-        
-          title: 'Why Sri Lanka Uses BS 1363 Electrical Plugs and Sockets <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@sanathkt/why-sri-lanka-uses-bs-1363-electrical-plugs-and-sockets-45a632e54044?source=rss-cbe0def0a051------2", "_blank");
-          
-        },
       },{id: "post-what-every-roboticist-must-know-about-ros-part-01",
         
           title: "What Every Roboticist Must Know About ROS - Part 01",
@@ -200,17 +222,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/ros/";
-          
-        },
-      },{id: "post-types-of-databases-an-overview-for-modern-applications",
-        
-          title: 'Types of Databases: An Overview for Modern Applications <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@sanathkt/types-of-databases-an-overview-for-modern-applications-8b13cc517de4?source=rss-cbe0def0a051------2", "_blank");
           
         },
       },{id: "post-fourier-transforms-seeing-sounds",
