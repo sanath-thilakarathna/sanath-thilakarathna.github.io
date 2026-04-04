@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-the-most-underrated-skill-in-mechatronics",
+        },{id: "post-the-machine-that-taught-me-more-than-any-textbook",
+        
+          title: "The Machine That Taught Me More Than Any Textbook",
+        
+        description: "A real-world observation of two tea bag production machines that reveals a deeper truth about mechatronics and the role of mechanical engineering.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/mechatronics-tea-bag-machine/";
+          
+        },
+      },{id: "post-the-most-underrated-skill-in-mechatronics",
         
           title: "The Most Underrated Skill in Mechatronics",
         
