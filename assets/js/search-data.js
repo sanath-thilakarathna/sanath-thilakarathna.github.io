@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-architecting-intelligence-how-npus-solved-the-von-neumann-bottleneck-for-the-ai-era",
+        },{id: "post-must-have-skills-for-mechatronics-engineers-in-2026",
+        
+          title: "Must-Have Skills for Mechatronics Engineers in 2026",
+        
+        description: "A practical and realistic guide to the essential skills every mechatronics engineer must develop to stay relevant in 2026 and beyond.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/mechatronics-skills-2026/";
+          
+        },
+      },{id: "post-architecting-intelligence-how-npus-solved-the-von-neumann-bottleneck-for-the-ai-era",
         
           title: 'Architecting Intelligence: How NPUs Solved the Von Neumann Bottleneck for the AI Era... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
