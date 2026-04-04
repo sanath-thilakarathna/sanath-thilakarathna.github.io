@@ -23,6 +23,13 @@ In traditional manufacturing, engineering often followed a siloed, sequential ap
 
 To truly understand what a mechatronics engineer does, you must examine the four fundamental pillars that make up the discipline. These components are heavily intertwined in any mechatronic system.
 
+{% include figure.liquid
+	loading="eager"
+	path="assets/img/mechatronics-eng.svg"
+	alt="Mechatronics engineering combines mechanical systems, electronics, control systems, and software"
+	class="img-fluid rounded z-depth-1"
+%}
+
 ### Mechanical Systems
 
 This is the physical foundation and the "muscle" of any mechatronic device. It involves the study of statics, dynamics, kinematics, thermodynamics, and materials science. Mechanical systems include the structural frame, gears, motors, levers, pneumatics, hydraulics, and moving parts that interact directly with the physical environment. In mechatronics, mechanical design is highly focused on precision, minimizing friction, and optimizing the weight-to-power ratio so that electronic components can move the hardware efficiently.
