@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-must-have-skills-for-mechatronics-engineers-in-2026",
+        },{id: "post-the-most-underrated-skill-in-mechatronics",
+        
+          title: "The Most Underrated Skill in Mechatronics",
+        
+        description: "Why mechanical engineering is the most overlooked yet fundamental part of mechatronics, and how ignoring it leads to failed systems.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/mechatronics-skills-underrated-mechanical/";
+          
+        },
+      },{id: "post-must-have-skills-for-mechatronics-engineers-in-2026",
         
           title: "Must-Have Skills for Mechatronics Engineers in 2026",
         
