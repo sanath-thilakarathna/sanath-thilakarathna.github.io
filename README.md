@@ -2,7 +2,7 @@
 
 Source for my personal website and blog.
 
-- Live site: https://sanaththilakarathna.me/
+- Live site: https://sanatht.me/
 - Tech: Jekyll (GitHub Pages)
 
 ## Run locally (Docker)
