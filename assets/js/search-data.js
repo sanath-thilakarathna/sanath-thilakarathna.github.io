@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-the-machine-that-taught-me-more-than-any-textbook",
+        },{id: "post-i-saw-this-in-a-movie-then-realized-it-s-used-in-scienc",
+        
+          title: '“I Saw This in a Movie… Then Realized It’s Used in Scienc <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@sanathkt/i-saw-this-in-a-movie-then-realized-its-used-in-scienc-4df0e6455dcd?source=rss-cbe0def0a051------2", "_blank");
+          
+        },
+      },{id: "post-the-machine-that-taught-me-more-than-any-textbook",
         
           title: "The Machine That Taught Me More Than Any Textbook",
         
@@ -211,17 +222,6 @@ ninja.data = [{
         handler: () => {
           
             window.open("https://medium.com/@sanathkt/bertha-benz-the-first-test-driver-who-changed-the-world-cebbc8e33b7c?source=rss-cbe0def0a051------2", "_blank");
-          
-        },
-      },{id: "post-a-50-year-old-soviet-spacecraft-is-about-to-crash-back-to-earth",
-        
-          title: 'A 50-Year-Old Soviet Spacecraft Is About to Crash Back to Earth <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@sanathkt/a-50-year-old-soviet-spacecraft-is-about-to-crash-back-to-earth-ff59e5f34458?source=rss-cbe0def0a051------2", "_blank");
           
         },
       },{id: "post-understanding-strain-how-materials-deform",
