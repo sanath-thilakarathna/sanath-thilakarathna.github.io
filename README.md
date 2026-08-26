@@ -5,6 +5,9 @@ Source for my personal website and blog.
 - Live site: https://sanatht.me/
 - Tech: Jekyll (GitHub Pages)
 
+The site uses `sanatht.me` as its custom GitHub Pages domain, configured in
+`CNAME` and `_config.yml`.
+
 ## Run locally (Docker)
 
 This repo includes Docker Compose, so you can run the site without installing Ruby.
