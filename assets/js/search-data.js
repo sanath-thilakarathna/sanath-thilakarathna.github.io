@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-i-saw-this-in-a-movie-then-realized-it-s-used-in-scienc",
+        },{id: "post-syncing-zotero-across-my-pc-and-ipad-without-paying-for-more-storage",
+        
+          title: "Syncing Zotero Across My PC and iPad Without Paying for More Storage",
+        
+        description: "A simple, low-cost way to sync Zotero PDFs across devices using a local WebDAV server in Docker, with a hostname to avoid IP changes on the network.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/zotero-webdav/";
+          
+        },
+      },{id: "post-i-saw-this-in-a-movie-then-realized-it-s-used-in-scienc",
         
           title: '“I Saw This in a Movie… Then Realized It’s Used in Scienc <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
