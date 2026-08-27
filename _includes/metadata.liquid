@@ -24,7 +24,7 @@
   {% if site.title == 'blank' %}
     {% capture title %}{{ author_name }}{% endcapture %}
   {% else %}
-    {% capture title %}{{ site.title }}{% endcapture %}
+    {% capture title %}{{ site.seo_title | default: site.title }}{% endcapture %}
   {% endif %}
   {% if page.url == '/blog/index.html' %}
     {{ page.title }} | {{ title }}
@@ -222,20 +222,40 @@
 
   <script type="application/ld+json">
     {
-        "author":
+      "@context": "https://schema.org",
+      "@graph": [
         {
-            "@type": "Person",
-            "name": "{{ author_name }}"
+          "@type": "Person",
+          "@id": "{{ site.url }}#person",
+          "name": {{ author_name | strip | jsonify }},
+          "url": "{{ site.url }}/",
+          "image": "{{ site.og_image }}",
+          "jobTitle": "Mechatronics Engineer and Lecturer",
+          "description": {{ site.description | strip | jsonify }},
+          "knowsAbout": ["Mechatronics Engineering", "Robotics", "Embedded Systems", "Microcontrollers", "Automation", "Computer Vision", "Artificial Intelligence"]{% if sameaslinks != blank %},
+          "sameAs": {{ sameaslinks }}{% endif %}
         },
-        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
-        "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
-        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-        {% if sameaslinks != blank %}
-        "sameAs": {{ sameaslinks }},
-        {% endif %}
-        "name": "{{ author_name }}",
-        "@context": "https://schema.org"
+        {
+          "@type": "WebSite",
+          "@id": "{{ site.url }}/#website",
+          "url": "{{ site.url }}/",
+          "name": {{ site.title | strip | jsonify }},
+          "description": {{ site.description | strip | jsonify }},
+          "publisher": {"@id": "{{ site.url }}#person"}
+        }{% if is_blog_post %},
+        {
+          "@type": "BlogPosting",
+          "headline": {{ page.title | strip | jsonify }},
+          "description": {{ page.description | default: site.description | strip | jsonify }},
+          "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+          "mainEntityOfPage": {"@id": "{{ page.url | prepend: site.baseurl | prepend: site.url }}"},
+          "datePublished": "{{ page.date | date_to_xmlschema }}",
+          "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+          "image": "{{ page.og_image | default: site.og_image }}",
+          "author": {"@id": "{{ site.url }}#person"},
+          "publisher": {"@id": "{{ site.url }}#person"}
+        }{% endif %}
+      ]
     }
   </script>
 {% endif %}

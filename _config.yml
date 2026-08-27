@@ -3,21 +3,22 @@
 # -----------------------------------------------------------------------------
 
 title: Sanath Thilakarathna #blank # the website title (if blank, full name will be used instead)
+seo_title: Sanath Thilakarathna | Mechatronics Engineer
 first_name: Sanath
 middle_name:
 last_name: Thilakarathna
 contact_note: >
 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Lecturer in Mechatronics Engineering | Robotics, Embedded Systems, AI
+  Sanath Thilakarathna is a Mechatronics Engineer and Lecturer in Sri Lanka writing about mechatronics engineering, robotics, embedded systems, microcontrollers, automation, and AI.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Sanath Thilakarathna, Mechatronics Engineer, Sanath, Automation, Mechanical Engineer # add your own keywords or leave empty
+keywords: Sanath Thilakarathna, Sanath, Mechatronics Engineer, Mechatronics Engineering, Robotics, Embedded Systems, Microcontrollers, Automation, Computer Vision, Artificial Intelligence, CINEC # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🧑‍🦰 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://sanatht.me/ # the base hostname & protocol for your site
+url: https://sanatht.me # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -87,8 +88,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: # blog_name will be displayed in your blog page
-blog_description: #a simple whitespace theme for academics
+blog_name: Sanath Thilakarathna's Mechatronics Blog # blog_name will be displayed in your blog page
+blog_description: Practical notes on mechatronics engineering, robotics, embedded systems, microcontrollers, and automation.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 

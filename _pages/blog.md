@@ -2,6 +2,8 @@
 layout: default
 permalink: /blog/
 title: Blog
+description: Practical articles by Sanath Thilakarathna about mechatronics engineering, robotics, embedded systems, microcontrollers, automation, and programming.
+keywords: Sanath Thilakarathna blog, mechatronics blog, robotics, embedded systems, microcontrollers, automation
 nav: true
 nav_order: 1
 pagination:
