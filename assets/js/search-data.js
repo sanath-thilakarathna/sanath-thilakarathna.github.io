@@ -529,7 +529,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/1/";
+            window.location.href = "/blog/2025/advanced-features-of-c/";
           
         },
       },{id: "post-exploring-every-feature-of-c-from-basics-to-advanced-c-post-05",
@@ -540,7 +540,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/1/";
+            window.location.href = "/blog/2025/exploring-every-feature-of-c/";
           
         },
       },{id: "post-how-the-compiler-toolchain-works-c-post-04",
