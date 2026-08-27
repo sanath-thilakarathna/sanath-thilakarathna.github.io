@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://sanatht.me//sitemap.xml
+Sitemap: https://sanatht.me/sitemap.xml

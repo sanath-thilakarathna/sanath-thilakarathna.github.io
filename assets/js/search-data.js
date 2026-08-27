@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-blog",
           title: "Blog",
-          description: "",
+          description: "Practical articles by Sanath Thilakarathna about mechatronics engineering, robotics, embedded systems, microcontrollers, automation, and programming.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
