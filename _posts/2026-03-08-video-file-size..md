@@ -75,10 +75,10 @@ This technique reduces file size dramatically.
 
 For example, a ten minute Full HD video might look like this
 
-|Codec|Bitrate|File Size|
-|---|---|---|
-|H.264|about 8 Mbps|about 600 MB|
-|H.265|about 5 Mbps|about 375 MB|
+| Codec | Bitrate      | File Size    |
+| ----- | ------------ | ------------ |
+| H.264 | about 8 Mbps | about 600 MB |
+| H.265 | about 5 Mbps | about 375 MB |
 
 Compared to the raw size of **108 GB**, this is a huge reduction.
 
@@ -168,17 +168,17 @@ This makes editing much easier because modifying one frame does not affect the o
 
 The downside is that the files become much larger.
 
-|Codec|Bitrate|
-|---|---|
-|H.264|about 8 Mbps|
-|ProRes 422|about 150 Mbps|
+| Codec      | Bitrate        |
+| ---------- | -------------- |
+| H.264      | about 8 Mbps   |
+| ProRes 422 | about 150 Mbps |
 
 For a ten minute video the file sizes might be
 
-|Codec|File Size|
-|---|---|
-|H.264|about 600 MB|
-|ProRes|about 11 GB|
+| Codec  | File Size    |
+| ------ | ------------ |
+| H.264  | about 600 MB |
+| ProRes | about 11 GB  |
 
 So editing formats can be **15 to 20 times larger**.
 

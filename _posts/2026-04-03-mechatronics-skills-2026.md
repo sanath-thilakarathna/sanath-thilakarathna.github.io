@@ -18,9 +18,11 @@ You can graduate with good grades and still struggle to build even a simple work
 This is the shift happening right now.
 
 In 2026, companies are not asking:
+
 > “What did you study?”
 
 They are asking:
+
 > “What can you actually build?”
 
 And this is where many mechatronics engineers get stuck.
@@ -64,20 +66,23 @@ At some point, every mechatronics engineer realizes the same thing:
 Motors, sensors, communication—all of it depends on code.
 
 Start simple:
-- C/C++ for microcontrollers  
-- Python for quick testing and logic  
+
+- C/C++ for microcontrollers
+- Python for quick testing and logic
 
 Work with real hardware:
-- Arduino to understand basics  
-- ESP32 for more advanced applications  
-- STM32 when you want to go deeper  
+
+- Arduino to understand basics
+- ESP32 for more advanced applications
+- STM32 when you want to go deeper
 
 But do not stop at “it works.”
 
 Learn to:
-- Debug when it doesn’t work  
-- Understand timing issues  
-- Handle real-world noise and errors  
+
+- Debug when it doesn’t work
+- Understand timing issues
+- Handle real-world noise and errors
 
 Because real systems are not clean like textbooks.
 
@@ -93,10 +98,10 @@ Wrong voltage levels.
 
 You don’t need to design complex circuits from scratch, but you must understand:
 
-- How sensors actually output signals  
-- Why pull-up and pull-down resistors matter  
-- How to protect components  
-- Basic PCB design concepts  
+- How sensors actually output signals
+- Why pull-up and pull-down resistors matter
+- How to protect components
+- Basic PCB design concepts
 
 If your circuit is unstable, your entire system fails—no matter how good your code is.
 
@@ -112,14 +117,16 @@ But when you implement it, the system oscillates, overshoots, or behaves unpredi
 That is normal.
 
 What matters is learning:
-- How to tune a system  
-- How to interpret system response  
-- How to simplify complex behavior  
+
+- How to tune a system
+- How to interpret system response
+- How to simplify complex behavior
 
 Examples you should actually try:
-- Motor speed control  
-- Line-following robot  
-- Temperature control system  
+
+- Motor speed control
+- Line-following robot
+- Temperature control system
 
 Because control is not about equations—it is about behavior.
 
@@ -132,15 +139,17 @@ Many students ignore mechanical design because it seems “basic.”
 It is not.
 
 Bad mechanical design leads to:
-- Vibrations  
-- Misalignment  
-- Increased load on motors  
-- System inefficiency  
+
+- Vibrations
+- Misalignment
+- Increased load on motors
+- System inefficiency
 
 You should understand:
-- How forces act in your system  
-- How to design stable structures  
-- Basic CAD tools like SolidWorks or Fusion 360  
+
+- How forces act in your system
+- How to design stable structures
+- Basic CAD tools like SolidWorks or Fusion 360
 
 A system that looks good on screen may fail in reality.
 
@@ -153,9 +162,10 @@ A system that looks good on screen may fail in reality.
 Robotics is not just about building robots.
 
 It is about understanding:
-- Motion  
-- Precision  
-- Repeatability  
+
+- Motion
+- Precision
+- Repeatability
 
 Industries rely heavily on automation. If you understand how systems move and interact, you become valuable quickly.
 
@@ -168,15 +178,17 @@ AI is no longer limited to cloud systems.
 It is moving into embedded devices.
 
 This means:
-- Small systems making intelligent decisions  
-- Real-time processing without internet dependency  
+
+- Small systems making intelligent decisions
+- Real-time processing without internet dependency
 
 You do not need to become an AI researcher.
 
 But you should understand:
-- How AI integrates with embedded systems  
-- What edge computing means  
-- Where it is actually useful  
+
+- How AI integrates with embedded systems
+- What edge computing means
+- Where it is actually useful
 
 ---
 
@@ -187,9 +199,10 @@ Modern systems do not work in isolation.
 They communicate.
 
 You should know:
-- How devices send data (MQTT, HTTP)  
-- How systems are monitored remotely  
-- How data can be used to improve performance  
+
+- How devices send data (MQTT, HTTP)
+- How systems are monitored remotely
+- How data can be used to improve performance
 
 This is where engineering meets real-world deployment.
 
@@ -202,9 +215,10 @@ Before building, good engineers simulate.
 Because building first and fixing later is expensive.
 
 Tools like MATLAB and Simulink help you:
-- Understand system behavior  
-- Test ideas quickly  
-- Reduce trial-and-error  
+
+- Understand system behavior
+- Test ideas quickly
+- Reduce trial-and-error
 
 Even basic simulation knowledge gives you a strong advantage.
 
@@ -214,11 +228,11 @@ Even basic simulation knowledge gives you a strong advantage.
 
 You will hear many tool names:
 
-- MATLAB  
-- SolidWorks  
-- KiCad  
-- ROS  
-- Git  
+- MATLAB
+- SolidWorks
+- KiCad
+- ROS
+- Git
 
 Learn them, but understand this:
 
@@ -235,16 +249,17 @@ This is where everything connects.
 
 Every system you build follows a pattern:
 
-- A sensor reads something  
-- A controller makes a decision  
-- An actuator responds  
+- A sensor reads something
+- A controller makes a decision
+- An actuator responds
 
 Simple in theory. Complex in reality.
 
 System thinking means:
-- Understanding interactions  
-- Predicting behavior  
-- Identifying where things can fail  
+
+- Understanding interactions
+- Predicting behavior
+- Identifying where things can fail
 
 This is what makes you an engineer—not just a coder or designer.
 
@@ -254,10 +269,10 @@ This is what makes you an engineer—not just a coder or designer.
 
 These are often ignored, but critical:
 
-- Explaining your ideas clearly  
-- Writing proper documentation  
-- Working with a team  
-- Managing time and tasks  
+- Explaining your ideas clearly
+- Writing proper documentation
+- Working with a team
+- Managing time and tasks
 
 You can be technically strong, but if you cannot communicate or collaborate, your impact is limited.
 
@@ -270,9 +285,10 @@ Not perfect engineers.
 Not theoretical experts.
 
 They want people who can:
-- Take a problem  
-- Break it down  
-- Build a working solution  
+
+- Take a problem
+- Break it down
+- Build a working solution
 
 Even if it is not perfect.
 
@@ -282,10 +298,10 @@ Even if it is not perfect.
 
 You may recognize some of these:
 
-- Focusing only on exams  
-- Avoiding hands-on work  
-- Copying projects instead of understanding them  
-- Ignoring programming  
+- Focusing only on exams
+- Avoiding hands-on work
+- Copying projects instead of understanding them
+- Ignoring programming
 
 These create a gap between knowledge and ability.
 
@@ -299,10 +315,10 @@ There is no shortcut.
 
 But there is a clear path:
 
-- Start small (simple Arduino projects)  
-- Gradually increase complexity  
-- Build complete systems (not just parts)  
-- Share your work (GitHub, blog, LinkedIn)  
+- Start small (simple Arduino projects)
+- Gradually increase complexity
+- Build complete systems (not just parts)
+- Share your work (GitHub, blog, LinkedIn)
 
 Most importantly:
 
@@ -317,9 +333,10 @@ A completed simple project is more valuable than an incomplete complex one.
 Do not try to learn everything at once.
 
 Focus on:
-- Strong fundamentals  
-- Consistent practice  
-- Real projects  
+
+- Strong fundamentals
+- Consistent practice
+- Real projects
 
 Stay curious. Stay practical.
 

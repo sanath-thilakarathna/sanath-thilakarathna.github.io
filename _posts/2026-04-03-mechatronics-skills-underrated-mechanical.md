@@ -31,24 +31,26 @@ If your mechanical design is wrong, nothing else can save your system.
 
 There is a common mindset among students and even some engineers:
 
-- Mechanical engineering is “basic”  
-- Software is more advanced  
-- Electronics is more important  
+- Mechanical engineering is “basic”
+- Software is more advanced
+- Electronics is more important
 
 So they focus on:
-- Writing better code  
-- Learning new boards  
-- Trying advanced algorithms  
+
+- Writing better code
+- Learning new boards
+- Trying advanced algorithms
 
 While treating mechanical design as an afterthought.
 
 But real systems are not simulations.
 
 They deal with:
-- Friction  
-- Misalignment  
-- Vibrations  
-- Load variations  
+
+- Friction
+- Misalignment
+- Vibrations
+- Load variations
 
 And all of these are mechanical realities.
 
@@ -60,14 +62,14 @@ Before sensors detect, before controllers compute, before actuators move — the
 
 Mechanical engineering defines:
 
-- How forces are distributed  
-- How motion is generated and constrained  
-- How stable the system is under operation  
-- How efficiently energy is used  
+- How forces are distributed
+- How motion is generated and constrained
+- How stable the system is under operation
+- How efficiently energy is used
 
 In simple terms:
 
-> Mechanical engineering creates the *environment* in which electronics and software operate.
+> Mechanical engineering creates the _environment_ in which electronics and software operate.
 
 If that environment is unstable, everything built on top of it becomes unreliable.
 
@@ -77,17 +79,17 @@ If that environment is unstable, everything built on top of it becomes unreliabl
 
 In mechatronics, mechanical engineering is responsible for:
 
-- Converting motion into useful output  
-- Maintaining alignment and structural integrity  
-- Handling forces, loads, and stresses  
-- Ensuring precision and repeatability  
+- Converting motion into useful output
+- Maintaining alignment and structural integrity
+- Handling forces, loads, and stresses
+- Ensuring precision and repeatability
 
 When you design a system, mechanical decisions directly affect:
 
-- Accuracy  
-- Efficiency  
-- Reliability  
-- Lifetime of components  
+- Accuracy
+- Efficiency
+- Reliability
+- Lifetime of components
 
 Without a strong mechanical base, even the most advanced control algorithms cannot perform properly.
 
@@ -107,10 +109,10 @@ It is mechanical.
 
 Common issues:
 
-- Slight misalignment in wheels → robot drifts  
-- Weak structure → vibrations → noisy sensor readings  
-- Poor weight distribution → unstable motion  
-- High friction → motors struggle and overheat  
+- Slight misalignment in wheels → robot drifts
+- Weak structure → vibrations → noisy sensor readings
+- Poor weight distribution → unstable motion
+- High friction → motors struggle and overheat
 
 These problems are subtle, but they dominate system behavior.
 
@@ -122,14 +124,15 @@ Consider a line-following robot.
 
 ### Poor Mechanical Design
 
-- Wheels are not aligned  
-- Chassis is slightly tilted  
-- Weight distribution is uneven  
+- Wheels are not aligned
+- Chassis is slightly tilted
+- Weight distribution is uneven
 
 Result:
-- Oscillations  
-- Difficult PID tuning  
-- Inconsistent tracking  
+
+- Oscillations
+- Difficult PID tuning
+- Inconsistent tracking
 
 You may keep adjusting control parameters, but the problem persists.
 
@@ -137,14 +140,15 @@ You may keep adjusting control parameters, but the problem persists.
 
 ### Good Mechanical Design
 
-- Proper alignment  
-- Balanced structure  
-- Smooth motion  
+- Proper alignment
+- Balanced structure
+- Smooth motion
 
 Result:
-- Stable behavior  
-- Easier control tuning  
-- Predictable performance  
+
+- Stable behavior
+- Easier control tuning
+- Predictable performance
 
 Same electronics.  
 Same code.  
@@ -158,10 +162,10 @@ Completely different outcome.
 
 There are clear reasons:
 
-- It is not visually “impressive” like code or AI  
-- It requires physical intuition, not just logic  
-- It is harder to debug compared to software  
-- Many learning paths emphasize theory over real design  
+- It is not visually “impressive” like code or AI
+- It requires physical intuition, not just logic
+- It is harder to debug compared to software
+- Many learning paths emphasize theory over real design
 
 As a result, many engineers underestimate its importance—until systems start failing.
 
@@ -173,15 +177,15 @@ You do not need advanced theoretical depth to be effective.
 
 But you must understand:
 
-- Kinematics (how systems move)  
-- Forces and torque  
-- Friction and wear  
-- Tolerances and fits  
-- Material selection  
+- Kinematics (how systems move)
+- Forces and torque
+- Friction and wear
+- Tolerances and fits
+- Material selection
 
 And you should be comfortable with:
 
-- CAD tools (SolidWorks, Fusion 360)  
+- CAD tools (SolidWorks, Fusion 360)
 
 Because design decisions made here define everything that follows.
 
@@ -191,15 +195,15 @@ Because design decisions made here define everything that follows.
 
 Mechanical design directly influences:
 
-- Control system stability  
-- Sensor accuracy  
-- Power efficiency  
+- Control system stability
+- Sensor accuracy
+- Power efficiency
 
 Examples:
 
-- Vibrations introduce noise in sensors  
-- Backlash reduces positioning accuracy  
-- Poor structure increases control difficulty  
+- Vibrations introduce noise in sensors
+- Backlash reduces positioning accuracy
+- Poor structure increases control difficulty
 
 So when your controller behaves poorly, the issue may not be in your algorithm.
 
@@ -213,21 +217,23 @@ This comes from experience, not theory alone.
 
 You need to:
 
-- Build real systems  
-- Observe how they fail  
-- Improve and redesign  
+- Build real systems
+- Observe how they fail
+- Improve and redesign
 
 Start simple:
-- Small robots  
-- Basic mechanisms  
-- Motor-driven systems  
+
+- Small robots
+- Basic mechanisms
+- Motor-driven systems
 
 Focus on:
-- Alignment  
-- Stability  
-- Smooth motion  
 
-Over time, you will begin to *feel* what works and what does not.
+- Alignment
+- Stability
+- Smooth motion
+
+Over time, you will begin to _feel_ what works and what does not.
 
 ---
 

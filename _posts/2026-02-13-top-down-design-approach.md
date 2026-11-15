@@ -50,7 +50,6 @@ One of the strongest advantages of the top-down method is global optimization. S
 
 The approach also aligns closely with systems engineering principles and modern development frameworks such as the V-Model and Model-Based Systems Engineering (MBSE). In these methodologies, verification and validation are linked to requirement levels. Each decomposition stage has corresponding testing procedures. This structured traceability is essential in safety-critical domains such as aerospace, medical robotics, and industrial automation.
 
-
 However, the top-down approach demands strong system-level thinking. Engineers must understand interactions across disciplines. It requires careful documentation and disciplined modeling. Early stages may appear slow compared to rapid prototyping methods. Yet for complex mechatronic systems, the cost of skipping structured analysis is far greater than the time invested in planning.
 
 Ultimately, the top-down design approach transforms mechatronics engineering from component assembly into system architecture development. It ensures that mechanical structures, electronic circuits, control algorithms, and embedded software converge toward a unified objective. Instead of reacting to problems during integration, engineers anticipate them during design. In multidisciplinary environments where complexity is unavoidable, this methodology provides clarity, traceability, and reliability.

@@ -17,7 +17,7 @@ You will learn both:
 - **Classical vision** (filters, edges, features, geometry), and
 - **Modern vision** (learning-based methods, evaluation, and deployment basics).
 
-The emphasis is on *hands-on labs* and *reproducible experiments*.
+The emphasis is on _hands-on labs_ and _reproducible experiments_.
 
 ## Learning Outcomes
 

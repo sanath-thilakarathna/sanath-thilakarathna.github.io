@@ -11,6 +11,7 @@ This page lists all PDF files available in the course downloads folder.
 {% assign cv_pdfs = site.static_files | where_exp: "f", "f.path contains '/assets/pdf/computer_vision/'" | where: "extname", ".pdf" %}
 
 {% if cv_pdfs and cv_pdfs.size > 0 %}
+
 <ul>
   {% for f in cv_pdfs %}
     <li>
