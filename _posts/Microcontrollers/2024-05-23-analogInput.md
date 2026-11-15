@@ -3,7 +3,7 @@ layout: post
 title: "How Microcontrollers 'See' the Real World"
 date: 2025-05-23 21:00:00 +0530
 description: Explore how microcontrollers and DAQ systems handle analog inputs, from voltage sensing with ADCs to the complexities of current measurement, differentiating between hobbyist and professional approaches.
-tags: Microcontrollers, Analog Input, ADC, Sensors, Data Acquisition, Electronics, Engineering
+tags: Microcontrollers, Analog Input, ADC, Sensors, Data Acquisition, Electronics, engineering
 categories: Engineering
 featured: false
 pretty_table: true

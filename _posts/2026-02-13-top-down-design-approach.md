@@ -3,7 +3,7 @@ layout: post
 title: Top-Down Design Approach
 date: 2026-02-12 12:00:00
 description: An introduction to the Top-Down Design approach in engineering and software development, explaining its benefits and methodology.
-tags: Design, Engineering, Systems, Software
+tags: design, engineering, Systems, Software
 categories: Engineering
 featured: false
 pretty_table: true

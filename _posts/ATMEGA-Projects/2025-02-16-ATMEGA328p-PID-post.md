@@ -3,7 +3,7 @@ layout: post
 title: "Creating a PID Controller Using ATmega328P: Theory and Implementation"
 date: 2025-02-18 10:00:00
 description: "A comprehensive guide to understanding and implementing a PID controller on the ATmega328P microcontroller, covering the mathematical theory and practical C code implementation."
-tags: [ATmega328P, PID Controller, Embedded Systems, Microcontroller, Control Theory]
+tags: [ATmega328P, PID Controller, embedded systems, Microcontroller, Control Theory]
 categories: Programming
 featured: false
 pretty_table: true
